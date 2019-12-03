@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Joyce_Lam_Project_2</title>
+    <topicref href="Cover_page.dita"/>
+    <topicref href="about_this_publication.dita">
+        <topicref href="ibm_storediq_product_library.dita"/>
+        <topicref href="contacting_ibm_storediq_customer_support.dita"/>
+    </topicref>
+    <topicref href="ibm_storediq_components.dita">
+        <topicref href="solution_components.dita"/>
+        <topicref href="applications_of_ibm_storediq_0.dita">
+            <topicref href="ibm_storediq_data_server.dita"/>
+            <topicref href="ibm_storediq_administrator.dita"/>
+            <topicref href="ibm_storediq_data_workbench.dita"/>
+            <topicref href="ibm_storediq_insights.dita"/>
+            <topicref href="ibm_storediq_policy_manager.dita"/>
+            <topicref href="ibm_storediq_desktop_data_collector.dita"/>
+        </topicref>
+    </topicref>
+    <topicref href="planning_for_deployment.dita">
+        <topicref href="generate_customized_reports_with_the_spcr_tool.dita"/>
+        <topicref href="open_virtual_appliance__ova__configuration_requirements.dita"/>
+        <topicref href="network_and_port_requirements.dita"/>
+        <topicref href="environment_sizing_guidelines.dita"/>
+        <topicref href="stack_provisioning_prerequisites.dita"/>
+        <topicref href="license_usage_metrics.dita"/>
+        <topicref href="security.dita">
+            <topicref href="default_user_accounts.dita"/>
+        </topicref>
+    </topicref>
+    <topicref href="deploying_ibm_storediq.dita">
+        <topicref href="deploying_the_virtual_appliances.dita"/>
+        <topicref href="deploying_ibm_storediq_on_microsoft_hyper_v.dita"/>
+    </topicref>
+    <topicref format="ditamap" href="glossary.ditamap"/>
+</map>

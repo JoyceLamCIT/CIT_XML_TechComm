@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_tlw_swr_xjb">
+    <title>IBM Deployment and Configuration Guide </title>
+    <shortdesc> This edition applies to Version 7.6.0.19 of product number 5724M86 and to all
+        subsequent releases and modifications until otherwise indicated in new editions. © Copyright
+        International Business Machines Corporation 2001, 2019. US Government Users Restricted
+        Rights – Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM
+        Corp.</shortdesc>
+    <refbody>
+        <section id="section_v4f_xxr_xjb">
+            <title>Linking</title>
+            <p>provides some general information about the techniques you have used for linking and
+                etc.</p>
+        </section>
+        <section id="section_okp_zxr_xjb">
+            <title>Conditional processing</title>
+            <p>provides some general information about the techniques you have used for conditional
+                processing and etc.</p>
+        </section>
+    </refbody>
+</reference>

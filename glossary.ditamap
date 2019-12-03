@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Glossary</title>
+    <topicref href="gateway.dita"/>
+    <topicref href="data_servers.dita"/>
+    <topicref href="application_stack.dita"/>
+    <topicref href="elasticsearch_cluster.dita"/>
+</map>

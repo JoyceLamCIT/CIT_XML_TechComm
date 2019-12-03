@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ibm_storediq_administrator">
+    <title>IBM StoredIQ Administrator</title>
+    <shortdesc>IBM StoredIQ Administrator helps you manage global assets common to the distributed
+        infrastructure behind IBM StoredIQ applications.</shortdesc>
+    <conbody>
+        <p><!--insert img IBM_StoredIQ_Administrator--><!--insert list starting on pg3--></p>
+    </conbody>
+</concept>
