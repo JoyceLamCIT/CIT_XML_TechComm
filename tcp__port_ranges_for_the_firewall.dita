@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="tcp__port_ranges_for_the_firewall">
+    <title>TCP: port ranges for the firewall</title>
+    <shortdesc></shortdesc>
+    <refbody>
+        <section id="section_rgq_x4t_xjb">
+            <title>Open port ranges</title>
+            <p>To ensure the network access for desktop volumes, the following port ranges must be
+                open through a firewall:<ul id="ul_bqb_z4t_xjb">
+                    <li>21000-21004</li>
+                    <li>21100-21101</li>
+                    <li>21110-21130</li>
+                    <li>21200-21204</li>
+                </ul></p>
+        </section>
+    </refbody>
+</reference>

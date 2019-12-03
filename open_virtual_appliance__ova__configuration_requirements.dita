@@ -6,25 +6,5 @@
         (all fix pack levels) or VMware ESXi 6.0 (all fix pack levels) environments. You must have a
         virtual infrastructure that meets the IBM StoredIQ hardware requirements.</shortdesc>
     <refbody>
-        <section id="section_aps_mrs_xjb">
-            <title>Application stack</title>
-            <p/>
-        </section>
-        <section id="section_yyj_nrs_xjb">
-            <title>Gateway server</title>
-            <p/>
-        </section>
-        <section id="section_a5m_4rs_xjb">
-            <title>DataServer - Classic</title>
-            <p/>
-        </section>
-        <section id="section_pdj_prs_xjb">
-            <title>DataServer - Distributed</title>
-            <p/>
-        </section>
-        <section id="section_dtb_qrs_xjb">
-            <title>Each Elasticsearch node </title>
-            <p/>
-        </section>
-    </refbody>
+          </refbody>
 </reference>

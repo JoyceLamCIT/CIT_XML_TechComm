@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="default_open_ports_on_the_ibm_storediq_data_server">
+    <title>IBM StoredIQ data server ports</title>
+    <shortdesc></shortdesc>
+    <refbody>
+        <table colsep="1" frame="all" id="table_fjr_jqt_xjb" rowsep="1">
+            <title>Default open ports on the IBM StoredIQ data server</title>
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                <colspec colname="c2" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Port number</entry>
+                        <entry>Protocol</entry>
+                        <entry>Service</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>22</entry>
+                        <entry>tcp</entry>
+                        <entry>PROD-ssh</entry>
+                    </row>
+                    <row>
+                        <entry>80</entry>
+                        <entry>tcp</entry>
+                        <entry>PROD-web</entry>
+                    </row>
+                    <row>
+                        <entry>443</entry>
+                        <entry>tcp</entry>
+                        <entry>PROD-https (UI and Web Services APIs) </entry>
+                    </row>
+                    <row>
+                        <entry>11103</entry>
+                        <entry morerows="1">tcp</entry>
+                        <entry morerows="1">PROD-transport (IBM StoredIQ transport services;
+                            communication between the gateway and the data server)</entry>
+                    </row>
+                    <row>
+                        <entry>11104</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

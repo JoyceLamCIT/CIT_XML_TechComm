@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="dataserver___distributed">
+    <title>DataServer - Distributed</title>
+    <shortdesc>If you deploy this type of data server, you must also deploy an Elasticsearch cluster
+        with at least one node. If you deploy a cluster with more nodes, each of the Elasticsearch
+        nodes must meet the listed requirements. </shortdesc>
+    <refbody>
+        <table colsep="1" frame="all" id="table_kzt_nnt_xjb" rowsep="1">
+            <title>Technical specifications</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <tbody>
+                    <row>
+                        <entry>vCPU</entry>
+                        <entry>4</entry>
+                    </row>
+                    <row>
+                        <entry>Memory</entry>
+                        <entry>16 GB</entry>
+                    </row>
+                    <row>
+                        <entry>Primary disk storage (vmdisk1, SCSI 0:0)</entry>
+                        <entry>Default 150 GB</entry>
+                    </row>
+                    <row>
+                        <entry>Data disk storage (vmdisk2, SCSI 0:1)</entry>
+                        <entry>Default 2 TB</entry>
+                    </row>
+                    <row>
+                        <entry>Swap disk storage (vmdisk3, SCSI 0:2)</entry>
+                        <entry>Default 40 TB</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>
