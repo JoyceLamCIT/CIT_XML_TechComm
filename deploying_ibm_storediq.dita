@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="deploying_ibm_storediq">
     <title>Deploying IBM StoredIQ</title>
-    <shortdesc></shortdesc>
+    <shortdesc>IBM StoredIQ is a virtual appliance that you deploy and configure in a VMWare virtual
+        host environment. </shortdesc>
     <refbody> </refbody>
 </reference>
