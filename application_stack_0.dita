@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="application_stack_0">
-    <title>Application stack</title>
+    <title>Application stack specifications</title>
     <shortdesc></shortdesc>
     <refbody>
         <table colsep="1" frame="all" id="table_q1n_kjt_xjb" rowsep="1">
@@ -30,4 +30,7 @@
             </tgroup>
         </table>
     </refbody>
+    <related-links>
+        <link href="application_stack_0.dita"/>
+    </related-links>
 </reference>

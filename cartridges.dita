@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry id="cartridges">
+    <glossterm>Cartridges</glossterm>
+    <glossdef>
+        <p>Cartridges are compressed files that contain analysis logic. When you add a cartridge to
+            IBM StoredIQ AppStack, it can detect new data in documents during indexing and make
+            these new insights searchable. For example, a sensitive pattern cartridge can enable IBM
+            StoredIQ to detect passport numbers, phone numbers, and other IDs.</p>
+        <p>To apply the analysis logic contained in the cartridge, you must run a Step-up Analytics
+            action that uses the cartridge on an infoset. IBM StoredIQ examines all documents in the
+            infoset, applies the analytics, and then stores the analysis results in the IBM StoredIQ
+            index.</p>
+    </glossdef>
+</glossentry>

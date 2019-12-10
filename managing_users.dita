@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="managing_users">
+    <title>Managing users</title>
+    <shortdesc>The user management area allows administrators to create users and manage users'
+        access to the various IBM StoredIQ applications.</shortdesc>
+    <conbody>
+        <p></p>
+    </conbody>
+</concept>

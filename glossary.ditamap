@@ -2,8 +2,14 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Glossary</title>
-    <topicref href="gateway.dita"/>
-    <topicref href="data_servers.dita"/>
     <topicref href="application_stack.dita"/>
+    <topicref href="auto_classification.dita"/>
+    <topicref href="cartridges.dita"/>
+    <topicref href="connector_api_sdk.dita"/>
+    <topicref href="data_servers.dita"/>
+    <topicref href="dataserver___classic_0.dita"/>
+    <topicref href="dataserver___distributed_0.dita"/>
     <topicref href="elasticsearch_cluster.dita"/>
+    <topicref href="gateway.dita" keys="gateway"/>
+    <topicref href="ibm_storediq_insights_0.dita"/>
 </map>

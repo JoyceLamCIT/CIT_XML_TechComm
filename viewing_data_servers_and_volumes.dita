@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="viewing_data_servers_and_volumes">
+    <title>Viewing data servers and volumes</title>
+    <shortdesc>Using IBM StoredIQ Administrator, the Administrator can identify what data servers
+        are deployed, their location, what data is being managed, and the status of each data server
+        in the system.</shortdesc>
+    <conbody>
+        <p>Volume management is a central component of IBM StoredIQ. IBM StoredIQ Administrator also
+            allows the Administrator to see what volumes are currently under management, which data
+            server is responsible for that volume, the state of the volume after indexing, and the
+            amount and size of information that is contained by each volume. Administrators can also
+            add volumes to and delete volumes from data servers through this interface.</p>
+        <p>If IBM StoredIQ is configured for integration with Information Governance Catalog, the
+            Administrator can also manage which volumes are published to the governance catalog.</p>
+    </conbody>
+</concept>

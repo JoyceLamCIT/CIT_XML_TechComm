@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="managing_target_sets">
+    <title>Managing target sets</title>
+    <shortdesc>Provides an interface that allows the user to set the wanted targets for specific
+        actions that require a destination volume for their actions.</shortdesc>
+    <conbody>
+        <p></p>
+    </conbody>
+</concept>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="reports">
+    <title>Reports</title>
+    <shortdesc>IBM StoredIQ Administrator provides a number of built-in reports, such as summaries
+        of data objects in the system, storage use, and the number of identical documents in the
+        system.</shortdesc>
+    <conbody>
+        <p>You can create custom reports, including Query Analysis Reports for e-discovery purposes,
+            and automatically email report notifictions to administrators and other interested
+            parties.</p>
+    </conbody>
+</concept>

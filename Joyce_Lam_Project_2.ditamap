@@ -2,36 +2,81 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Joyce_Lam_Project_2</title>
-    <topicref href="Cover_page.dita"/>
-    <topicref href="about_this_publication.dita">
-        <topicref href="ibm_storediq_product_library.dita"/>
-        <topicref href="contacting_ibm_storediq_customer_support.dita"/>
-    </topicref>
-    <topicref href="ibm_storediq_components.dita">
-        <topicref href="solution_components.dita"/>
-        <topicref href="applications_of_ibm_storediq_0.dita">
-            <topicref href="ibm_storediq_data_server.dita"/>
-            <topicref href="ibm_storediq_administrator.dita"/>
-            <topicref href="ibm_storediq_data_workbench.dita"/>
-            <topicref href="ibm_storediq_insights.dita"/>
-            <topicref href="ibm_storediq_policy_manager.dita"/>
-            <topicref href="ibm_storediq_desktop_data_collector.dita"/>
+    <topicref href="Cover_page.dita">
+        <topicref href="about_this_publication.dita">
+            <topicref href="ibm_storediq_product_library.dita"/>
+            <topicref href="contacting_ibm_storediq_customer_support.dita"/>
         </topicref>
-    </topicref>
-    <topicref href="planning_for_deployment.dita">
-        <topicref href="generate_customized_reports_with_the_spcr_tool.dita"/>
-        <topicref href="open_virtual_appliance__ova__configuration_requirements.dita"/>
-        <topicref href="network_and_port_requirements.dita"/>
-        <topicref href="environment_sizing_guidelines.dita"/>
-        <topicref href="stack_provisioning_prerequisites.dita"/>
-        <topicref href="license_usage_metrics.dita"/>
-        <topicref href="security.dita">
-            <topicref href="default_user_accounts.dita"/>
+        <topicref href="ibm_storediq_components.dita">
+            <topicref href="solution_components.dita">
+                <topicref href="gateway.dita"/>
+                <topicref href="data_servers.dita"/>
+                <topicref href="application_stack.dita"/>
+                <topicref href="elasticsearch_cluster.dita"/>
+            </topicref>
+            <topicref href="applications_of_ibm_storediq_0.dita">
+                <topicref href="ibm_storediq_data_server.dita"/>
+                <topicref href="ibm_storediq_administrator.dita">
+                    <topicref href="viewing_data_servers_and_volumes.dita"/>
+                    <topicref href="scheduling_harvests.dita"/>
+                    <topicref href="creating_system_infosets.dita"/>
+                    <topicref href="managing_users.dita"/>
+                    <topicref href="configuring_and_managing_actions.dita"/>
+                    <topicref href="managing_target_sets.dita"/>
+                    <topicref href="reports.dita"/>
+                    <topicref href="auto_classification.dita"/>
+                    <topicref href="cartridges.dita"/>
+                    <topicref href="managing_concepts.dita"/>
+                    <topicref href="managing_mule_scripts.dita"/>
+                    <topicref href="dataserver___classic_0.dita"/>
+                    <topicref href="dataserver___distributed_0.dita"/>
+                    <topicref href="connector_api_sdk.dita"/>
+                </topicref>
+                <topicref href="ibm_storediq_data_workbench.dita"/>
+                <topicref href="ibm_storediq_insights_0.dita"/>
+                <topicref href="ibm_storediq_policy_manager.dita"/>
+                <topicref href="ibm_storediq_desktop_data_collector.dita"/>
+            </topicref>
         </topicref>
+        <topicref href="planning_for_deployment.dita">
+            <topicref href="generate_customized_reports_with_the_spcr_tool.dita"/>
+            <topicref href="open_virtual_appliance__ova__configuration_requirements.dita">
+                <topicref href="application_stack_0.dita"/>
+                <topicref href="gateway_server.dita"/>
+                <topicref href="dataserver___classic.dita"/>
+                <topicref href="dataserver___distributed.dita"/>
+                <topicref href="each_elasticsearch_node.dita"/>
+            </topicref>
+            <topicref href="network_and_port_requirements.dita">
+                <topicref href="tcp__port_ranges_for_the_firewall.dita"/>
+                <topicref href="default_open_ports.dita">
+                    <topicref href="ssh_port_22.dita"/>
+                    <topicref href="default_open_ports_on_the_appstack.dita"/>
+                    <topicref href="default_open_ports_on_the_ibm_storediq_data_server.dita"/>
+                    <topicref
+                        href="enable_or_disable_ports_or_services_on_the_ibm_storediq_data_server_0.dita"/>
+                    <topicref
+                        href="default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita"/>
+                    <topicref href="default_open_ports_on_the_ibm_storediq_gateway.dita"/>
+                    <topicref href="ibm_storediq_gateway_supported_chain_and_rules.dita"/>
+                    <topicref href="open_ports_for_desktop_client_access_to_the_data_server.dita"/>
+                </topicref>
+            </topicref>
+            <topicref href="environment_sizing_guidelines.dita">
+                <topicref href="vmware_requirements.dita"/>
+            </topicref>
+            <topicref href="stack_provisioning_prerequisites.dita"/>
+            <topicref href="license_usage_metrics.dita">
+                <topicref href="integration_with_ibm_license_metric_tool.dita"/>
+            </topicref>
+            <topicref href="security.dita">
+                <topicref href="default_user_accounts.dita"/>
+            </topicref>
+        </topicref>
+        <topicref href="deploying_ibm_storediq.dita">
+            <topicref href="deploying_the_virtual_appliances.dita"/>
+            <topicref href="deploying_ibm_storediq_on_microsoft_hyper_v.dita"/>
+        </topicref>
+        <topicref href="glossary.dita"/>
     </topicref>
-    <topicref href="deploying_ibm_storediq.dita">
-        <topicref href="deploying_the_virtual_appliances.dita"/>
-        <topicref href="deploying_ibm_storediq_on_microsoft_hyper_v.dita"/>
-    </topicref>
-    <topicref format="ditamap" href="glossary.ditamap"/>
 </map>
