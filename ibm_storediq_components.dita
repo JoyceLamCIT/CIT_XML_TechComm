@@ -2,9 +2,33 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="ibm_storediq_components">
     <title>IBM StoredIQ components</title>
-    <shortdesc>The IBM StoredIQ solution consists of these components: the application stack, the
-        gateway, the data server, and optionally the Elasticsearch cluster.</shortdesc>
-    <conbody>
-        <p></p>
-    </conbody>
+    <shortdesc>The IBM StoredIQ solution consists of these components: the <abbreviated-form
+            keyref="application_stack"/>, the <abbreviated-form keyref="gateway"/>, the
+            <abbreviated-form keyref="data_servers"/>, and optionally the <abbreviated-form
+            keyref="elasticsearch_cluster"/>.</shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+            
+        </metadata>
+    </prolog>
+    <conbody> </conbody>
+    <related-links>
+        <linklist>
+            <link href="solution_components.dita"/>
+            <link href="applications_of_ibm_storediq_0.dita"/>
+        </linklist>
+    </related-links>
 </concept>

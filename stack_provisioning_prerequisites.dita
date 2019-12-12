@@ -2,14 +2,30 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="stack_provisioning_prerequisites">
     <title>Stack-provisioning prerequisites</title>
-    <shortdesc>Before a deployment, verify that you meet these prerequisites.
-        <!--requires rewrite--></shortdesc>
+    <shortdesc>Before a deployment, verify that you meet these requirements.</shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
     <refbody>
         <section id="section_ysx_lyp_yjb">
-            <title/>
+            <title>Deployment prerequisites</title>
             <p>
                 <ul id="ul_rfh_4yp_yjb">
-                    <li>At least one physical server with suf³cient processor, RAM, and hard disk
+                    <li>At least one physical server with sufficient processor, RAM, and hard disk
                         configuration for the planned management project.</li>
                     <li>VMware ESX or ESXi on CD/DVD or USB drive.</li>
                     <li>IP addresses, cables, and physical switch ports for at least the ESXi/ESX

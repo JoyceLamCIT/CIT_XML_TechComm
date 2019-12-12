@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="planning_for_deployment_0">
+    <title>Planning for deployment</title>
+    <shortdesc>When you plan a deployment of IBM StoredIQ, evaluate several infrastructure
+        considerations. </shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <refbody>
+        <section id="section_mfs_nk1_1kb">
+            <title>Additional information</title>
+            <p>In addition to the information in this section, review the requirements detailed in
+                the IBM Software Product Compatibility Reports (SPCR) tool at <xref format="html"
+                    href="https://www.ibm.com/software/reports/compatibility/clarity-reports/report/html/softwareReqsForProduct?deliverableId=CC1291B0F4AF11E3ACBD4447721DA353"
+                    scope="external">Software Product Compatibility Reports: StoredIQ
+                7.6</xref>.</p>
+            <p>If you plan to use IBM StoredIQ for Legal Identification and Collection to create and
+                manage data boxes and data requests that are to be fulfilled by IBM StoredIQ, also
+                check the system requirements for StoredIQ for Legal at: <xref format="html"
+                    href="https://www.ibm.com/software/reports/compatibility/clarity-reports/report/html/softwareReqsForProduct?deliverableId=8A0331A0C50D11E58D9C0D684F363D68"
+                    scope="external">Software Product Compatibility Reports: StoredIQ for Legal
+                    2.0.3</xref>.</p>
+        </section>
+    </refbody>
+    <related-links>
+        <linklist>
+            <desc>Related information:</desc>
+            <link href="generate_customized_reports_with_the_spcr_tool.dita"/>
+            <link href="open_virtual_appliance__ova__configuration_requirements.dita"/>
+            <link href="network_and_port_requirements.dita"/>
+            <link href="environment_sizing_guidelines.dita"/>
+            <link href="stack_provisioning_prerequisites.dita"/>
+            <link href="license_usage_metrics.dita"/>
+            <link href="security.dita"/>
+        </linklist>
+    </related-links>
+</reference>

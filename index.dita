@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="index">
+    <title>Index</title>
+    <shortdesc>This is a list of index terms inserted in topicref elements in the ditamap.</shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <keywords id="index_entries">
+                <!-- nested -->
+                <indexterm>elasticsearch cluster <indexterm>elasticsearch node</indexterm>
+                </indexterm>
+                <indexterm>IBM StoredIQ components
+                    <indexterm>solution Components</indexterm>
+                </indexterm>
+                <!-- synonomous -->
+                <indexterm> solution components <index-see>IBM StoredIQ Components</index-see>
+                    <index-see-also>IBM StoredIQ Components</index-see-also>
+                </indexterm>
+                <!-- other -->
+
+                
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody> </refbody>
+</reference>

@@ -8,6 +8,23 @@
         million objects each, the index storage requirement for metadata on ~30 TB of storage that
         contains uncompressed general office documents is ~330 GB (11 GB per TB). Add 100 GB per TB
         of managed storage for full-text or snippet index.</shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
     <refbody>
         <example>To support 30 TB of storage that is indexed for metadata, you need 8 TB indexed for
             full-text search and extracted text (snippet cache) of 8 TB for auto-classification. A
@@ -43,10 +60,10 @@
                         <entry>Primary disk storage (vmdisk1, SCSI 0:0)</entry>
                         <entry>Default 150 GB</entry>
                         <entry>This virtual disk has an associated VMDK that contains the IBM
-                            StoredIQ operating code. Do not change its size. <note>If you delete the
-                                primary disk, you delete the operating system, and the IBM StoredIQ
-                                software; the virtual machine might need to be
-                                scrapped.</note></entry>
+                            StoredIQ operating code. Do not change its size. <note importance="high"
+                                type="warning">If you delete the primary disk, you delete the
+                                operating system, and the IBM StoredIQ software; the virtual machine
+                                might need to be scrapped.</note></entry>
                     </row>
                     <row>
                         <entry>Data disk storage (vmdisk2; SCSI 0:1)</entry>
@@ -71,7 +88,4 @@
             </tgroup>
         </table>
     </refbody>
-    <related-links>
-        <link href="dataserver___classic_0.dita"/>
-    </related-links>
 </reference>

@@ -8,14 +8,32 @@
         StoredIQ Data Workbench can help you learn about your data, make educated decisions with
         your most valuable asset, and turn your company's most dangerous risk into its most valuable
         asset. </shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
     <conbody>
-        <p><!--insert img IBM_StoredIQ_Data_Workbench--> Big data is a pervasive problem, not a one-time occurrence. It is easy for most
-            companies to realize that big data is problematic, but it is hard to identify what problems
-            they have. Big data is all about the unknown, but the unknown cannot be off limits. IBM
+        <p><image conkeyref="images/IBM_StoredIQ_Data_Workbench" id="image_p4j_5pf_1kb"/></p>
+        <p>Big data is a pervasive problem, not a one-time occurrence. It is easy for most companies
+            to realize that big data is problematic, but it is hard to identify what problems they
+            have. Big data is all about the unknown, but the unknown cannot be off limits. IBM
             StoredIQ Data Workbench can help you learn about your data, make educated decisions with
-            your most valuable asset, and turn your company's most dangerous risk into its most valuable
-            asset. Here are just some examples of how you can
-            use IBM StoredIQ Data Workbench.</p>
+            your most valuable asset, and turn your company's most dangerous risk into its most
+            valuable asset. Here are just some examples of how you can use IBM StoredIQ Data
+            Workbench.</p>
         <example>You need to find all company email that is sent from or received by Eileen Sideways
             (esideways@thecompany.com). You can use IBM StoredIQ Data Workbench to find all email
             and then copy that data to a predefined repository. You can also use IBM StoredIQ Data

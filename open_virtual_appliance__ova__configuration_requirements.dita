@@ -5,6 +5,30 @@
     <shortdesc>IBM StoredIQ is deployed as virtual appliances and is supported in VMware ESXi 5.0
         (all fix pack levels) or VMware ESXi 6.0 (all fix pack levels) environments. You must have a
         virtual infrastructure that meets the IBM StoredIQ hardware requirements.</shortdesc>
-    <refbody>
-          </refbody>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <related-links>
+        <linklist>
+            <link href="application_stack_0.dita"/>
+            <link href="gateway_server.dita"/>
+            <link href="dataserver___classic.dita"/>
+            <link href="dataserver___distributed.dita"/>
+            <link href="each_elasticsearch_node.dita"/>
+        </linklist>
+    </related-links>
 </reference>

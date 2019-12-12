@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+    <prop action="exclude" att="audience" val="novice"/>
+    <prop action="include" att="audience" val="general"/>
+    <prop action="include" att="audience" val="expert"></prop>
+    <prop action="include" att="platform" val="windows"/>
+    <prop action="exclude" att="platform" val="mac"/>
+    <prop action="flag" att="platform" val="linux" color="#6f399e" backcolor="#f0f0f0"/>
+</val>
