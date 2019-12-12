@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>IBM StoredIQ Deployment and Configuration Guide</title>
+    <reltable title="Reltable">
+        <relrow>
+            <relcell>
+                <topicref href="../Reference/planning_for_deployment_0.dita"/>
+            </relcell>
+            <relcell>
+                <topicref
+                    href="../Reference/open_virtual_appliance__ova__configuration_requirements.dita"
+                />
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="../Reference/about_this_publication.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="../Reference/ibm_storediq_product_library.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="../Reference/dataserver___classic.dita"/>
+            </relcell>
+            <relcell>
+                <topicref keyref="dataserver_classic"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="../Reference/dataserver___distributed.dita"/>
+            </relcell>
+            <relcell>
+                <topicref keyref="dataserver_distributed"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="../Reference/deploying_ibm_storediq.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="../Task/deploying_the_virtual_appliances.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="../Concept/ibm_storediq_administrator.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="../Reference/default_user_accounts.dita"/>
+            </relcell>
+        </relrow>
+    </reltable>
+    <topicref href="../Reference/Cover_page.dita"/>
+    <topicref href="../Reference/about_this_publication.dita">
+        <topicref href="../Reference/ibm_storediq_product_library.dita">
+            <topicmeta>
+                <keywords>
+                    <indexterm> IBM StoredIQ <indexterm> product library </indexterm>
+                    </indexterm>
+                </keywords>
+            </topicmeta>
+        </topicref>
+        <topicref href="../Reference/contacting_ibm_storediq_customer_support.dita"/>
+    </topicref>
+    <topicref href="../Concept/ibm_storediq_components.dita">
+        <topicref href="../Concept/solution_components.dita">
+            <topicmeta>
+                <keywords>
+                    <indexterm> components <index-see> solution components </index-see>
+                    </indexterm>
+                </keywords>
+            </topicmeta>
+            <topicref href="../glossary/gateway.dita" keys="gateway">
+                <topicmeta>
+                    <keywords>
+                        <indexterm>gateway</indexterm>
+                    </keywords>
+                </topicmeta>
+            </topicref>
+            <topicref href="../glossary/data_servers.dita" keys="data_servers">
+                <topicmeta>
+                    <keywords>
+                        <indexterm>classic <indexterm> data servers </indexterm>
+                        </indexterm>
+                        <indexterm>distributed <indexterm> data servers </indexterm>
+                        </indexterm>
+                    </keywords>
+                </topicmeta>
+            </topicref>
+            <topicref href="../glossary/application_stack.dita" keys="application_stack">
+                <topicmeta>
+                    <keywords>
+                        <indexterm> AppStack <index-see-also>application stack</index-see-also>
+                        </indexterm>
+                    </keywords>
+                </topicmeta>
+            </topicref>
+            <topicref href="../glossary/elasticsearch_cluster.dita" keys="elasticsearch_cluster">
+                <topicmeta>
+                    <keywords>
+                        <indexterm>elasticsearch <indexterm>cluster</indexterm></indexterm>
+                    </keywords>
+                </topicmeta>
+            </topicref>
+        </topicref>
+        <topicref href="../Concept/applications_of_ibm_storediq_0.dita">
+            <topicref href="../Concept/ibm_storediq_data_server.dita"/>
+            <topicref href="../Concept/ibm_storediq_administrator.dita">
+                <topicmeta>
+                    <keywords>
+                        <indexterm>administrator</indexterm>
+                    </keywords>
+                </topicmeta>
+                <topicref href="../Concept/viewing_data_servers_and_volumes.dita">
+                    <topicmeta>
+                        <keywords>
+                            <indexterm>data servers<indexterm>volume</indexterm></indexterm>
+                        </keywords>
+                    </topicmeta>
+                </topicref>
+                <topicref href="../Concept/scheduling_harvests.dita">
+                    <topicmeta>
+                        <keywords>
+                            <indexterm>harvests<indexterm>scheduling</indexterm></indexterm>
+                        </keywords>
+                    </topicmeta>
+                </topicref>
+                <topicref href="../Concept/creating_system_infosets.dita">
+                    <topicmeta>
+                        <keywords>
+                            <indexterm>infosets</indexterm>
+                            <indexterm>harvests <indexterm>infosets</indexterm></indexterm>
+                        </keywords>
+                    </topicmeta>
+                </topicref>
+                <topicref href="../Concept/managing_users.dita">
+                    <topicmeta>
+                        <keywords>
+                            <indexterm>user management <index-see-also>managing
+                                    users</index-see-also></indexterm>
+                        </keywords>
+                    </topicmeta>
+                </topicref>
+                <topicref href="../Concept/configuring_and_managing_actions.dita"/>
+                <topicref href="../Concept/managing_target_sets.dita"/>
+                <topicref href="../Concept/reports.dita"/>
+                <topicref href="../glossary/auto_classification.dita" keys="auto_classification"/>
+                <topicref href="../glossary/cartridges.dita" keys="cartridges"/>
+                <topicref href="../Concept/managing_concepts.dita"/>
+                <topicref href="../Concept/managing_mule_scripts.dita"/>
+                <topicref href="../glossary/dataserver___classic_0.dita" keys="dataserver_classic">
+                    <topicmeta>
+                        <keywords>
+                            <indexterm>dataserver <indexterm>classic</indexterm></indexterm>
+                        </keywords>
+                    </topicmeta>
+                </topicref>
+                <topicref href="../glossary/dataserver___distributed_0.dita"
+                    keys="dataserver_distributed">
+                    <topicmeta>
+                        <keywords>
+                            <indexterm>dataserver <indexterm>distributed</indexterm></indexterm>
+                        </keywords>
+                    </topicmeta>
+                </topicref>
+                <topicref href="../glossary/connector_api_sdk.dita" keys="connector_api_sdk">
+                    <topicmeta>
+                        <keywords>
+                            <indexterm>connector API SDK</indexterm>
+                        </keywords>
+                    </topicmeta>
+                </topicref>
+            </topicref>
+            <topicref href="../Concept/ibm_storediq_data_workbench.dita">
+                <topicmeta>
+                    <keywords>
+                        <indexterm>IBM StoredIQ <indexterm>Data Workbench</indexterm></indexterm>
+                    </keywords>
+                </topicmeta>
+            </topicref>
+            <topicref href="../glossary/ibm_storediq_insights_0.dita" keys="IBM_storediq_insights"/>
+            <topicref href="../Concept/ibm_storediq_policy_manager.dita">
+                <topicmeta>
+                    <keywords>
+                        <indexterm>IBM StoredIQ <indexterm>Policy Manager</indexterm></indexterm>
+                    </keywords>
+                </topicmeta>
+            </topicref>
+            <topicref href="../Concept/ibm_storediq_desktop_data_collector.dita">
+                <topicmeta>
+                    <keywords>
+                        <indexterm>IBM StoredIQ <indexterm>Desktop Data
+                            Collector</indexterm></indexterm>
+                    </keywords>
+                </topicmeta>
+            </topicref>
+        </topicref>
+    </topicref>
+    <topicref href="../Reference/planning_for_deployment_0.dita">
+        <topicmeta>
+            <keywords>
+                <indexterm>deployment <indexterm>planning</indexterm></indexterm>
+            </keywords>
+        </topicmeta>
+        <topicref href="../Task/generate_customized_reports_with_the_spcr_tool.dita"/>
+        <topicref href="../Reference/open_virtual_appliance__ova__configuration_requirements.dita">
+            <topicref href="../Reference/application_stack_0.dita"/>
+            <topicref href="../Reference/gateway_server.dita">
+                <topicmeta>
+                    <keywords>
+                        <indexterm>gates <index-see>gateway server</index-see></indexterm>
+                    </keywords>
+                </topicmeta>
+            </topicref>
+            <topicref href="../Reference/dataserver___classic.dita"/>
+            <topicref href="../Reference/dataserver___distributed.dita"/>
+            <topicref href="../Reference/each_elasticsearch_node.dita">
+                <topicmeta>
+                    <keywords>
+                        <indexterm>elasticsearch<indexterm>nodes</indexterm></indexterm>
+                        <indexterm>search nodes <index-see>elasticsearch
+                            nodes</index-see></indexterm>
+                    </keywords>
+                </topicmeta>
+            </topicref>
+        </topicref>
+        <topicref href="../Reference/network_and_port_requirements.dita">
+            <topicmeta>
+                <keywords>
+                    <indexterm>port<indexterm>requirements</indexterm></indexterm>
+                </keywords>
+            </topicmeta>
+            <topicref href="../Reference/tcp__port_ranges_for_the_firewall.dita">
+                <topicmeta>
+                    <keywords>
+                        <indexterm>port<indexterm>ranges</indexterm></indexterm>
+                    </keywords>
+                </topicmeta>
+            </topicref>
+            <topicref href="../Reference/default_open_ports.dita">
+                <topicmeta>
+                    <keywords>
+                        <indexterm>port <index-see-also>default</index-see-also></indexterm>
+                    </keywords>
+                </topicmeta>
+                <topicref href="../Reference/ssh_port_22.dita"/>
+                <topicref href="../Reference/default_open_ports_on_the_appstack.dita">
+                    <topicmeta>
+                        <keywords>
+                            <indexterm>port<indexterm>appstack</indexterm></indexterm>
+                        </keywords>
+                    </topicmeta>
+                </topicref>
+                <topicref
+                    href="../Reference/default_open_ports_on_the_ibm_storediq_data_server.dita">
+                    <topicmeta>
+                        <keywords>
+                            <indexterm> port<indexterm>data server</indexterm>
+                            </indexterm>
+                        </keywords>
+                    </topicmeta>
+                </topicref>
+                <topicref
+                    href="../Concept/enable_or_disable_ports_or_services_on_the_ibm_storediq_data_server_0.dita"/>
+                <topicref
+                    href="../Reference/default_open_ports_on_the_nodes_in_the_elasticsearch_cluster.dita">
+                    <topicmeta>
+                        <keywords>
+                            <indexterm>port<indexterm>elasticsearch cluster</indexterm></indexterm>
+                        </keywords>
+                    </topicmeta>
+                </topicref>
+                <topicref href="../Reference/default_open_ports_on_the_ibm_storediq_gateway.dita">
+                    <topicmeta>
+                        <keywords>
+                            <indexterm>port<indexterm>gateway</indexterm></indexterm>
+                        </keywords>
+                    </topicmeta>
+                </topicref>
+                <topicref href="../Concept/ibm_storediq_gateway_supported_chain_and_rules.dita"/>
+                <topicref
+                    href="../Task/open_ports_for_desktop_client_access_to_the_data_server.dita"/>
+            </topicref>
+        </topicref>
+        <topicref href="../Reference/environment_sizing_guidelines.dita">
+            <topicmeta>
+                <keywords>
+                    <indexterm> VMware <index-see-also>environment sizing
+                            guidelines</index-see-also>
+                    </indexterm>
+                </keywords>
+            </topicmeta>
+        </topicref>
+        <topicref href="../Reference/stack_provisioning_prerequisites.dita"/>
+        <topicref href="../Reference/license_usage_metrics.dita">
+            <topicref href="../Reference/integration_with_ibm_license_metric_tool.dita"/>
+        </topicref>
+        <topicref href="../Concept/security.dita">
+            <topicmeta>
+                <keywords>
+                    <indexterm>security</indexterm>
+                </keywords>
+            </topicmeta>
+            <topicref href="../Reference/default_user_accounts.dita">
+                <topicmeta>
+                    <keywords>
+                        <indexterm>user accounts</indexterm>
+                    </keywords>
+                </topicmeta>
+            </topicref>
+        </topicref>
+    </topicref>
+    <topicref href="../Reference/deploying_ibm_storediq.dita">
+        <topicmeta>
+            <keywords>
+                <indexterm> deployment </indexterm>
+            </keywords>
+        </topicmeta>
+        <topicref href="../Task/deploying_the_virtual_appliances.dita">
+            <topicmeta>
+                <keywords>
+                    <indexterm>deployment<indexterm>virtual appliances</indexterm></indexterm>
+                    <indexterm>virtual appliances</indexterm>
+                </keywords>
+            </topicmeta>
+        </topicref>
+        <topicref href="../Task/deploying_ibm_storediq_on_microsoft_hyper_v.dita">
+            <topicmeta>
+                <keywords>
+                    <indexterm>deployment<indexterm>Microsoft Hyper V</indexterm></indexterm>
+                </keywords>
+            </topicmeta>
+        </topicref>
+    </topicref>
+    <topichead navtitle="Glossary">
+        <topichead navtitle="A">
+            <topicref href="../glossary/glossary.dita#application_stack"/>
+            <topicref href="../glossary/glossary.dita#auto_classification">
+                <topicmeta>
+                    <keywords>
+                        <indexterm>auto-classification</indexterm>
+                    </keywords>
+                </topicmeta>
+            </topicref>
+        </topichead>
+        <topichead navtitle="C">
+            <topicref href="../glossary/glossary.dita#cartridges"/>
+            <topicref href="../glossary/glossary.dita#connector_api_sdk"/>
+        </topichead>
+        <topichead navtitle="D">
+            <topicref href="../glossary/glossary.dita#data_servers"/>
+            <topicref href="../glossary/glossary.dita#dataserver_classic"/>
+            <topicref href="../glossary/glossary.dita#dataserver_distributed"/>
+        </topichead>
+        <topichead navtitle="E">
+            <topicref href="../glossary/glossary.dita#elasticsearch_cluster"/>
+        </topichead>
+        <topichead navtitle="G">
+            <topicref href="../glossary/glossary.dita#gateway"/>
+        </topichead>
+        <topichead navtitle="I">
+            <topicref href="../glossary/glossary.dita#ibm_storediq_insights"/>
+        </topichead>
+    </topichead>
+    <topicref format="ditamap" href="images.ditamap">
+        <topicmeta>
+            <prodinfo>
+                <prodname>IBM StoredIQ</prodname>
+            </prodinfo>
+        </topicmeta>
+    </topicref>
+</map>

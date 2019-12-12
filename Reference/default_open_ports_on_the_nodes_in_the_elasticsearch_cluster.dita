@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="default_open_ports_on_the_nodes_in_the_elasticsearch_cluster">
+    <title>Elasticsearch cluster ports</title>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <refbody>
+        <table colsep="1" frame="all" id="table_nck_sst_xjb" rowsep="1">
+            <title>Default open ports on the nodes in the Elasticsearch cluster</title>
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Port number</entry>
+                        <entry>Protocol</entry>
+                        <entry>Service</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>21</entry>
+                        <entry>tcp</entry>
+                        <entry>ftp</entry>
+                    </row>
+                    <row>
+                        <entry>22</entry>
+                        <entry>tcp</entry>
+                        <entry>sshd</entry>
+                    </row>
+                    <row>
+                        <entry>80</entry>
+                        <entry>tcp</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>443</entry>
+                        <entry>tcp</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>888</entry>
+                        <entry>tcp</entry>
+                        <entry>SimpleHTTPServer (used for copying the
+                                <userinput>siqelasticsearch.yml configuration</userinput> file from
+                            the Elasticsearch node to the data server)</entry>
+                    </row>
+                    <row>
+                        <entry>9200</entry>
+                        <entry>tcp6</entry>
+                        <entry>docker-proxy (listening for REST requests) You can restrict access to
+                            this port by either enabling Search Guard or by setting up a firewall
+                            For more information, see <xref format="pdf"
+                                href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf"
+                                scope="external">Securing Elasticsearch cluster communication with
+                                Search Guard</xref> or <xref format="pdf"
+                                href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf"
+                                scope="external">Restricting access to port 9200 on Elasticsearch
+                                nodes</xref>.</entry>
+                    </row>
+                    <row>
+                        <entry>9300</entry>
+                        <entry>tcp6</entry>
+                        <entry>docker-proxy (internode communication)</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

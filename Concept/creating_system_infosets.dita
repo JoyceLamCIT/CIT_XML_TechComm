@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="creating_system_infosets">
+    <title>Creating system infosets</title>
+    <shortdesc>System infosets that use only specific indexed volumes can be created and managed
+        within <xref
+            href="applications_of_ibm_storediq_0.dita#applications_of_ibm_storediq_0/section_uyh_c21_1kb"
+            >IBM StoredIQ Administrator</xref>.</shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Although infosets are a core component of IBM StoredIQ Data Workbench, system infosets
+            are created as a shortcut for users in IBM StoredIQ Administrator.</p>
+    </conbody>
+</concept>

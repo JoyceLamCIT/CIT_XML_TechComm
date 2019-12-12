@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Elasticsearch cluster","href":"oxy_ex-1\/glossary\/glossary_8.html#elasticsearch_cluster","attributes": {"data-id":"elasticsearch_cluster",},"menu": {"hasChildren":false,},"tocID":"elasticsearch_cluster-d62e1160","topics":[]}]});

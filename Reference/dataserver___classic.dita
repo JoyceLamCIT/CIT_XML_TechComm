@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="dataserver___classic">
+    <title>DataServer - Classic</title>
+    <shortdesc>The general size limits for a data server are 150
+        million objects or 500 defined volumes, whichever limit is reached first. Assuming an
+        average object size of 200 KB equals about 30 TB of managed storage across 30 volumes of 5
+        million objects each, the index storage requirement for metadata on ~30 TB of storage that
+        contains uncompressed general office documents is ~330 GB (11 GB per TB). Add 100 GB per TB
+        of managed storage for full-text or snippet index.</shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <refbody>
+        <example>To support 30 TB of storage that is indexed for metadata, you need 8 TB indexed for
+            full-text search and extracted text (snippet cache) of 8 TB for auto-classification. A
+            total of 1.9 TB of storage is required (metadata: 330 GB, full-text: 800 GB, snippet
+            cache: 800 GB). Data-server performance is impacted by the IOPS available from the
+            storage subsystem. For each data server under maximum workload, at least 650 IOPS
+            generally delivers acceptable performance. In the situations where there is a high load
+            on the system, the IOPS that is used can reach up to 7000 with main write
+            operations.</example>
+        <table colsep="1" frame="all" id="table_v4q_zkt_xjb" rowsep="1">
+            <title>Technical specifications</title>
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="newCol3" colnum="3" colwidth="1*"/>
+                <tbody>
+                    <row>
+                        <entry>vCPU</entry>
+                        <entry>4</entry>
+                        <entry>Even though increasing the number of vCPUs increases performance, the
+                            actual benefits depend on whether the specific host is oversubscribed or
+                            not.</entry>
+                    </row>
+                    <row>
+                        <entry>Memory</entry>
+                        <entry>16 GB</entry>
+                        <entry>While the minimum value works under light-load condition, as the load
+                            increases, the data server quickly starts using swap space. For high
+                            load situations, increasing RAM beyond 16 GB can benefit performance.
+                            Monitoring swap usage can provide insight.</entry>
+                    </row>
+                    <row>
+                        <entry>Primary disk storage (vmdisk1, SCSI 0:0)</entry>
+                        <entry>Default 150 GB</entry>
+                        <entry>This virtual disk has an associated VMDK that contains the IBM
+                            StoredIQ operating code. Do not change its size. <note importance="high"
+                                type="warning">If you delete the primary disk, you delete the
+                                operating system, and the IBM StoredIQ software; the virtual machine
+                                might need to be scrapped.</note></entry>
+                    </row>
+                    <row>
+                        <entry>Data disk storage (vmdisk2; SCSI 0:1)</entry>
+                        <entry>Default 2 TB</entry>
+                        <entry>This virtual disk can be resized according to expectations on the
+                            amount of harvest data to be stored. For purposes of estimation, the
+                            index storage requirement for metadata is about 30 GB per TB of managed
+                            source data. Full-text indexing requires an extra 170 GB per TB.
+                            Therefore, the default data disk size is targeted for managing 10 TB of
+                            source information.</entry>
+                    </row>
+                    <row>
+                        <entry>Swap disk storage (vmdisk3; SCSI 0:2)</entry>
+                        <entry>Default 40 GB</entry>
+                        <entry>When under load, the data server can use much RAM; therefore, having
+                            ample swap space is prudent. The minimum swap size is equal to the
+                            amount of RAM configured for the virtual machine. For best performance
+                            under load, place this disk on the highest speed data store available to
+                            the host.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

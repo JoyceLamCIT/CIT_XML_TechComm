@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="default_open_ports_on_the_ibm_storediq_gateway">
+    <title>IBM StoredIQ gateway ports</title>
+    
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <refbody>
+        <table colsep="1" frame="all" id="table_tkf_rpp_yjb" rowsep="1">
+            <title>Default ports open on the IBM StoredIQ Gateway</title>
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Port number</entry>
+                        <entry>Protocol</entry>
+                        <entry>Service</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>22</entry>
+                        <entry>tcp</entry>
+                        <entry>PROD-ssh</entry>
+                    </row>
+                    <row>
+                        <entry>80</entry>
+                        <entry>tcp</entry>
+                        <entry>PROD-web </entry>
+                    </row>
+                    <row>
+                        <entry>443</entry>
+                        <entry>tcp</entry>
+                        <entry>PROD-https (UI and Web Services APIs) </entry>
+                    </row>
+                    <row>
+                        <entry>5432</entry>
+                        <entry>tcp</entry>
+                        <entry>PROD-postgres</entry>
+                    </row>
+                    <row>
+                        <entry>5434</entry>
+                        <entry>tcp</entry>
+                        <entry morerows="5">PROD-transport (IBM StoredIQ transport services;
+                            communication between the gateway and the data server) </entry>
+                    </row>
+                    <row>
+                        <entry>8765</entry>
+                        <entry>tcp</entry>
+                    </row>
+                    <row>
+                        <entry>7766</entry>
+                        <entry>tcp</entry>
+                    </row>
+                    <row>
+                        <entry>11102</entry>
+                        <entry>tcp</entry>
+                    </row>
+                    <row>
+                        <entry>11103</entry>
+                        <entry>tcp</entry>
+                    </row>
+                    <row>
+                        <entry>11104</entry>
+                        <entry>tcp</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

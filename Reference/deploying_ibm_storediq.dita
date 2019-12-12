@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="deploying_ibm_storediq">
+    <title>Deploying IBM StoredIQ</title>
+    <shortdesc>IBM StoredIQ is a virtual appliance that you deploy and configure in a VMWare virtual
+        host environment. </shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <refbody> </refbody>
+    <related-links>
+        <linklist>
+            <link href="../Task/deploying_the_virtual_appliances.dita"/>
+            <link href="../Task/deploying_ibm_storediq_on_microsoft_hyper_v.dita"/>
+        </linklist>
+    </related-links>
+</reference>

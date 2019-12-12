@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="network_and_port_requirements">
+    <title>Network and port requirements</title>
+    <shortdesc>For proper communication, the IBM StoredIQ components must be able to connect to each
+        other.</shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <refbody>
+        <section id="section_yfq_n4t_xjb">
+            <title>Network connectivity locations</title>
+            <p>You must enable network connectivity from the following locations:<ul
+                    id="ul_jll_q4t_xjb">
+                    <li>The data server IP address to the gateway IP address on port 11103.</li>
+                    <li>The gateway IP address to and from the application stack IP address on port
+                        8765 and 5432.</li>
+                    <li>Ports 80, 443, and 22 from the administrative workstation to the application
+                        stack and data server IP addresses.</li>
+                    <li>Port 22 from the administrative workstation to the gateway IP address.</li>
+                </ul></p>
+        </section>
+    </refbody>
+    <related-links>
+        <linklist>
+            <link href="tcp__port_ranges_for_the_firewall.dita"/>
+            <link href="default_open_ports.dita"/>
+        </linklist>
+    </related-links>
+</reference>

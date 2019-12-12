@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="stack_provisioning_prerequisites">
+    <title>Stack-provisioning prerequisites</title>
+    <shortdesc>Before a deployment, verify that you meet these requirements.</shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <refbody>
+        <section id="section_ysx_lyp_yjb">
+            <title>Deployment prerequisites</title>
+            <p>
+                <ul id="ul_rfh_4yp_yjb">
+                    <li>At least one physical server with sufficient processor, RAM, and hard disk
+                        configuration for the planned management project.</li>
+                    <li>VMware ESX or ESXi on CD/DVD or USB drive.</li>
+                    <li>IP addresses, cables, and physical switch ports for at least the ESXi/ESX
+                        interface, one data server, one gateway server, and one application
+                        stack.</li>
+                    <li>Network connectivity that is enabled from the following locations: <ul
+                            id="ul_ppp_bzp_yjb">
+                            <li>The data server IP address to the gateway IP address on port
+                                11103</li>
+                            <li>The gateway IP address to and from the application stack IP address
+                                on port 8765 and 5432</li>
+                            <li>Ports 80, 443, and 22 from the administrative workstation to the
+                                application stack and data server IP addresses</li>
+                            <li>Port 22 from the administrative workstation to the gateway IP
+                                address</li>
+                        </ul></li>
+                    <li>Network connectivity that is enabled from the data server IP address to any
+                        data sources to be harvested and managed.</li>
+                    <li>A management station computer or notebook from where the load-management
+                        work is done.</li>
+                </ul>
+            </p>
+        </section>
+    </refbody>
+</reference>

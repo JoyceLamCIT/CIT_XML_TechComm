@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="deploying_ibm_storediq_on_microsoft_hyper_v">
+    <title>Deploying IBM StoredIQ on Microsoft Hyper-V</title>
+    <shortdesc>As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data
+        server, and application stack can be installed on Microsoft Hyper-V. This option is not
+        supported for the Elasticsearch virtual appliance.</shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <prereq id="prereq_c3b_bm3_zjb">Installing IBM StoredIQ on Microsoft Hyper-V requires the
+            use of third-party software.  Microsoft Hyper-V does not support OVAs and OVFs. The
+            virtual machine needs to be built manually. For the procedure described here, the
+            following software prerequisites must be met:<ul id="ul_tmf_ln3_zjb">
+                <li>Microsoft Hyper-V Manager must be installed on a Windows system.</li>
+                <li>7-zip for Windows or tar for the Linux operating system must be available to
+                    extract contents of the OVA.</li>
+                <li>7-zip for Windows or gunzip for the Linux operating system must be installed to
+                    decompress the vmdk.gz file.</li>
+                <li> Microsoft Virtual Machine Converter 3.0 (Windows) or qemu-img (Linux) or must
+                    be installed to convert the files from VMWare .vmdk files to Hyper-V .vhdx
+                    files.</li>
+            </ul></prereq>
+        <context>Consider the following instructions a sample procedure. The instructions might
+            differ depending on the version of the third-party software.<p>Complete these steps for
+                the gateway, the data server, and the AppStack:</p></context>
+        <steps>
+            <step>
+                <cmd>Extract the vmdk file from the OVA</cmd>
+                <substeps id="substeps_sbk_c43_zjb">
+                    <substep>
+                        <cmd>Download the OVA.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Extract the contents of the OVA by using 7-zip for Windows or tar for
+                            the Linux operating system. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd> Decompress the vmdk.gz archive by using 7-zip for Windows or gunzip
+                            for Linux.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Delete everything except the vmdk file when the OVA extraction is
+                            complete.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Convert the VMWare .vmdk file to a Microsoft Hyper-V .vhdx file. </cmd>
+                <info>For instructions about converting .vmdk files to .vhdx files, see the
+                    following links:<ul id="ul_eq5_f43_zjb">
+                        <li><xref format="html"
+                                href="https://technet.microsoft.com/en-us/library/dn874008%28v=ws.11%29.aspx"
+                                scope="external">Use Microsoft Virtual Machine Converter</xref></li>
+                        <li><xref format="html"
+                                href="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/5/html/Virtualization/sect-Virtualization-Tips_and_tricks-Using_qemu_img.html"
+                                scope="external">Using qemu-img</xref></li>
+                    </ul></info>
+            </step>
+            <step>
+                <cmd>Build a virtual machine. </cmd>
+                <substeps id="substeps_k5q_343_zjb">
+                    <substep>
+                        <cmd>Select <menucascade>
+                            <uicontrol>New Virtual Machine</uicontrol>
+                            <uicontrol>Next</uicontrol>
+                        </menucascade> from Hyper-V
+                            Manager.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Enter the name of the virtual machine in the <uicontrol>Specify Name
+                                and Location</uicontrol> window and click
+                                <uicontrol>Next</uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Select <uicontrol>Generation of the machine</uicontrol> in the
+                                <uicontrol>Specify Generation window</uicontrol>. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd> Enter the startup memory in the <uicontrol>Assign Memory</uicontrol>
+                            window.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd> Select the correct network in the <uicontrol>Configure
+                                Network</uicontrol> window and click
+                            <uicontrol>Next</uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd> Select <uicontrol>Use an existing virtual hard disk</uicontrol> in the
+                                <uicontrol>Connect Virtual Hard Disk</uicontrol> window. Search the
+                            disk location, select one of the primary disks, and then click
+                                <uicontrol>Next</uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd> Click <uicontrol>Finish</uicontrol>.</cmd>
+                        <stepresult> Repeat these previous steps for all IBM StoredIQ
+                            disks.</stepresult>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd importance="optional">Add disks.</cmd>
+                <substeps id="substeps_c2f_443_zjb">
+                    <substep>
+                        <cmd> Select a virtual machine in Microsoft Hyper-V Manager.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Select the settings for the virtual machine under
+                                <uicontrol>Actions</uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Select the IDE controller and highlight Hard Drive in the
+                                <uicontrol>Settings</uicontrol> window. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd> Select Hard Drive and virtual hard disk and click
+                                <uicontrol>New</uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <uicontrol>Next</uicontrol> in the <uicontrol>New Virtual Hard
+                                Disk</uicontrol> wizard. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd> Select <uicontrol>VHDX</uicontrol> in <uicontrol>Choose Disk
+                                Format</uicontrol> and then click <uicontrol>Next</uicontrol>.
+                        </cmd>
+                    </substep>
+                    <substep>
+                        <cmd> Select <uicontrol>Dynamically expanding</uicontrol> in
+                                <uicontrol>Choose Disk Type</uicontrol> and then click
+                                <uicontrol>Next</uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd> Enter a name for the disk in the <uicontrol>Specify Name and
+                                Location</uicontrol> window and the click
+                                <uicontrol>Next</uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Select <uicontrol>Create a new blank virtual hard disk</uicontrol> and
+                            enter a size in the <uicontrol>Configure Disk</uicontrol> window and
+                            then click <uicontrol>Finish</uicontrol>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+        <postreq> Repeat this procedure for all additional disks. Complete the installation process
+            by following the instructions in <xref format="pdf"
+                href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf"
+                scope="external">Configuring IBM StoredIQ</xref>. </postreq>
+    </taskbody>
+</task>

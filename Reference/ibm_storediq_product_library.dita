@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="ibm_storediq_product_library">
+    <title>IBM StoredIQ product library</title>
+    <shortdesc> The IBM StoredIQ product library is updated annually. The current documents are
+        relevant to this edition, Version 7.6.0.19 of product number 5724M86, and applies to all
+        subsequent releases and modifications until otherwise indicated in new editions.</shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>            
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <refbody>
+        <section id="section_mx4_tyr_xjb">
+            <title>Available IBM StoredIQ documents</title>
+            <p>The following documents are available in the IBM® StoredIQ® product library.</p>
+            <p>
+                <ul id="ul_krs_vyr_xjb">
+                    <li>
+                        <p>IBM StoredIQ Overview Guide</p>
+                    </li>
+                    <li>
+                        <p>IBM StoredIQ Deployment and Configuration Guide</p>
+                    </li>
+                    <li>
+                        <p>IBM StoredIQ Data Server Administration Guide</p>
+                    </li>
+                    <li>
+                        <p>IBM StoredIQ Administrator Administration Guide</p>
+                    </li>
+                    <li>
+                        <p>IBM StoredIQ Data Workbench User Guide</p>
+                    </li>
+                    <li>
+                        <p>IBM StoredIQ Policy Manager User Guide</p>
+                    </li>
+                    <li>
+                        <p>IBM StoredIQ Insights User Guide</p>
+                    </li>
+                    <li>
+                        <p>IBM StoredIQ Integration Guide</p>
+                    </li>
+                </ul>
+            </p>
+        </section>
+    </refbody>
+</reference>

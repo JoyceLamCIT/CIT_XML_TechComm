@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"IBM StoredIQ Insights","href":"oxy_ex-1\/glossary\/glossary_10.html#ibm_storediq_insights","attributes": {"data-id":"ibm_storediq_insights",},"menu": {"hasChildren":false,},"tocID":"ibm_storediq_insights-d62e1180","topics":[]}]});

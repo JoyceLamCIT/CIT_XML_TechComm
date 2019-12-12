@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ibm_storediq_desktop_data_collector">
+    <title>IBM StoredIQ Desktop Data Collector</title>
+    <shortdesc>IBM StoredIQ Desktop Data Collector indexes desktops as volumes. The volumes appear
+        in IBM StoredIQ Data Server and in IBM StoredIQ Administrator, where they can be used like
+        any other data source.</shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <conbody>
+        <note type="note"> The IBM StoredIQ Desktop Data Collector is also referred to as the
+            desktop client.</note>
+        <p>The data server maintains an index using the information sent by the desktop client.
+            After indexing, desktops - even offline or unreachable ones - can be viewed, searched,
+            or targeted for later policy action. </p>
+    </conbody>
+</concept>

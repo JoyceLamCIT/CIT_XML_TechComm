@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="solution_components">
+    <title>Solution components</title>
+    <shortdesc>IBM StoredIQ provides three solution components: the <abbreviated-form
+            keyref="gateway"/>, <abbreviated-form keyref="data_servers"/>, and <term id="application_stack">AppStack</term>.</shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    
+    <related-links>
+        <linklist>
+            <link keyref="gateway"/>
+            <link keyref="data_servers"/>
+            <link keyref="application_stack"/>
+            <link keyref="elasticsearch_cluster"/>
+        </linklist>
+    </related-links>
+</concept>

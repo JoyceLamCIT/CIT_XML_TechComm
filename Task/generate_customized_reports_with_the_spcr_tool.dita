@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="generate_customized_reports_with_the_spcr_tool">
+    <title>Generate customized reports with the SPCR tool</title>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Go to the page at <xref format="html"
+                        href="http://www.ibm.com/software/reports/compatibility/clarity/index.html"
+                        scope="external">Software Product Compatibility Reports</xref>.</cmd>
+            </step>
+            <step>
+                <cmd>Create a high-level report for supported operating systems, related software,
+                    hypervisors, and supported translations for any product.</cmd>
+                <info><note>The most commonly generated reports types are detailed system
+                        requirements, hardware requirements, and end of service reports.</note>You
+                    can also create an in-depth report to get detailed system requirements, hardware
+                    requirements, and end of service information for each product.</info>
+                <choicetable id="choicetable_v44_bqs_xjb">
+                    <chrow>
+                        <choption>Detailed system requirements</choption>
+                        <chdesc>When you select your product version for the detailed system
+                            requirements report, you can set a report filter for
+                                <uicontrol>Operating system platforms</uicontrol>,
+                                <uicontrol>Product components</uicontrol>, and
+                                <uicontrol>Capabilities</uicontrol>, including prerequisites and
+                            support software. After you view the report, you can save it as a URL to
+                            generate anytime or download it as a PDF.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Hardware requirements</choption>
+                        <chdesc>When you select your product version for the hardware requirements
+                            report, you can set a report filter by the <uicontrol>Operating system
+                                families</uicontrol> option. Set the operating system filter by
+                            selecting some or all of the operating systems that are supported by
+                            your product. After you view the report, you can save it as a URL to
+                            generate anytime or download it as a PDF.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>End of service reports</choption>
+                        <chdesc>The end of service report shows the service window of the products
+                            that you specify over an eight year span. For example, you can find out
+                            when your product is scheduled to go out of service.</chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>Search for a product in all of the report types and reports are generated based
+                    on your query values.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

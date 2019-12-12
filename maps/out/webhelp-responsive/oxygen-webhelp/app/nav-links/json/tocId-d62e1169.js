@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Gateway","href":"oxy_ex-1\/glossary\/glossary_9.html#gateway","attributes": {"data-id":"gateway",},"menu": {"hasChildren":false,},"tocID":"gateway-d62e1170","topics":[]}]});

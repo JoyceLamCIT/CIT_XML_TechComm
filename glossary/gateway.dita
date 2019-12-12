@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry id="gateway">
+    <glossterm>Gateway</glossterm>
+    <glossdef>The gateway communicates between the data servers and the application stack. The
+        application stack polls the gateway for information about the data on the data servers. The
+        data servers push the information to the gateway.</glossdef>
+</glossentry>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="gateway_server">
+    <title>Gateway server</title>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="2019"/>
+        </critdates>
+        <metadata>
+            <audience type="administrator" experiencelevel="general" job="installing"/>
+            <prodinfo platform="windows">
+                <prodname>IBM StoredIQ</prodname>
+                <brand>IBM</brand>
+                <featnum>5724M86</featnum>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <refbody><table colsep="1" frame="all" id="table_u4p_dkt_xjb" rowsep="1">
+        <title>Technical specifications</title>
+        <tgroup cols="2">
+            <colspec colname="c1" colnum="1" colwidth="1*"/>
+            <colspec colname="c2" colnum="2" colwidth="1*"/>
+            <tbody>
+                <row>
+                    <entry>vCPU</entry>
+                    <entry>4</entry>
+                </row>
+                <row>
+                    <entry>Memory</entry>
+                    <entry>8 GB</entry>
+                </row>
+                <row>
+                    <entry>Primary disk storage (vmdisk1)</entry>
+                    <entry>100 GB</entry>
+                </row>
+                <row>
+                    <entry>Data disk storage (vmdisk2)</entry>
+                    <entry>75 GB</entry>
+                </row>
+                <row>
+                    <entry>Swap disk storage (vmdisk3)</entry>
+                    <entry>40 - 100 GB</entry>
+                </row>
+            </tbody>
+        </tgroup>
+    </table> </refbody>
+</reference>
