@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
-   <appContext helpID="planning_for_deployment_0"
-               path="planning_for_deployment_0.html"/>
-   <appContext helpID="open_virtual_appliance__ova__configuration_requirements"
-               path="open_virtual_appliance__ova__configuration_requirements.html"/>
-   <appContext helpID="about_this_publication" path="about_this_publication.html"/>
-   <appContext helpID="ibm_storediq_product_library"
-               path="ibm_storediq_product_library.html"/>
-   <appContext helpID="dataserver___classic" path="dataserver___classic.html"/>
-   <appContext helpID="dataserver___classic_0"
-               path="glossary/dataserver___classic_0.html"/>
-   <appContext helpID="dataserver___distributed" path="dataserver___distributed.html"/>
-   <appContext helpID="dataserver___distributed_0"
-               path="glossary/dataserver___distributed_0.html"/>
-   <appContext helpID="deploying_ibm_storediq" path="deploying_ibm_storediq.html"/>
-   <appContext helpID="deploying_the_virtual_appliances"
-               path="deploying_the_virtual_appliances.html"/>
-   <appContext helpID="ibm_storediq_administrator"
-               path="ibm_storediq_administrator.html"/>
-   <appContext helpID="default_user_accounts" path="default_user_accounts.html"/>
    <appContext helpID="reference_tlw_swr_xjb" path="Cover_page.html"/>
    <appContext helpID="about_this_publication" path="about_this_publication.html"/>
    <appContext helpID="ibm_storediq_product_library"
@@ -27,11 +8,10 @@
                path="contacting_ibm_storediq_customer_support.html"/>
    <appContext helpID="ibm_storediq_components" path="ibm_storediq_components.html"/>
    <appContext helpID="solution_components" path="solution_components.html"/>
-   <appContext helpID="gateway" path="glossary/gateway.html"/>
-   <appContext helpID="data_servers" path="glossary/data_servers.html"/>
-   <appContext helpID="application_stack" path="glossary/application_stack.html"/>
-   <appContext helpID="elasticsearch_cluster"
-               path="glossary/elasticsearch_cluster.html"/>
+   <appContext helpID="gateway" path="gateway.html"/>
+   <appContext helpID="data_servers" path="data_servers.html"/>
+   <appContext helpID="application_stack" path="application_stack.html"/>
+   <appContext helpID="elasticsearch_cluster" path="elasticsearch_cluster.html"/>
    <appContext helpID="applications_of_ibm_storediq_0"
                path="applications_of_ibm_storediq_0.html"/>
    <appContext helpID="ibm_storediq_data_server" path="ibm_storediq_data_server.html"/>
@@ -46,25 +26,22 @@
                path="configuring_and_managing_actions.html"/>
    <appContext helpID="managing_target_sets" path="managing_target_sets.html"/>
    <appContext helpID="reports" path="reports.html"/>
-   <appContext helpID="auto_classification" path="glossary/auto_classification.html"/>
-   <appContext helpID="cartridges" path="glossary/cartridges.html"/>
+   <appContext helpID="auto_classification" path="auto_classification.html"/>
+   <appContext helpID="cartridges" path="cartridges.html"/>
    <appContext helpID="managing_concepts" path="managing_concepts.html"/>
    <appContext helpID="managing_mule_scripts" path="managing_mule_scripts.html"/>
-   <appContext helpID="dataserver___classic_0"
-               path="glossary/dataserver___classic_0.html"/>
+   <appContext helpID="dataserver___classic_0" path="dataserver___classic_0.html"/>
    <appContext helpID="dataserver___distributed_0"
-               path="glossary/dataserver___distributed_0.html"/>
-   <appContext helpID="connector_api_sdk" path="glossary/connector_api_sdk.html"/>
+               path="dataserver___distributed_0.html"/>
+   <appContext helpID="connector_api_sdk" path="connector_api_sdk.html"/>
    <appContext helpID="ibm_storediq_data_workbench"
                path="ibm_storediq_data_workbench.html"/>
-   <appContext helpID="ibm_storediq_insights_0"
-               path="glossary/ibm_storediq_insights_0.html"/>
+   <appContext helpID="ibm_storediq_insights_0" path="ibm_storediq_insights_0.html"/>
    <appContext helpID="ibm_storediq_policy_manager"
                path="ibm_storediq_policy_manager.html"/>
    <appContext helpID="ibm_storediq_desktop_data_collector"
                path="ibm_storediq_desktop_data_collector.html"/>
-   <appContext helpID="planning_for_deployment_0"
-               path="planning_for_deployment_0.html"/>
+   <appContext helpID="planning_for_deployment" path="planning_for_deployment.html"/>
    <appContext helpID="generate_customized_reports_with_the_spcr_tool"
                path="generate_customized_reports_with_the_spcr_tool.html"/>
    <appContext helpID="open_virtual_appliance__ova__configuration_requirements"
@@ -96,6 +73,7 @@
                path="open_ports_for_desktop_client_access_to_the_data_server.html"/>
    <appContext helpID="environment_sizing_guidelines"
                path="environment_sizing_guidelines.html"/>
+   <appContext helpID="vmware_requirements" path="vmware_requirements.html"/>
    <appContext helpID="stack_provisioning_prerequisites"
                path="stack_provisioning_prerequisites.html"/>
    <appContext helpID="license_usage_metrics" path="license_usage_metrics.html"/>
@@ -108,17 +86,5 @@
                path="deploying_the_virtual_appliances.html"/>
    <appContext helpID="deploying_ibm_storediq_on_microsoft_hyper_v"
                path="deploying_ibm_storediq_on_microsoft_hyper_v.html"/>
-   <appContext helpID="application_stack" path="glossary.html#application_stack"/>
-   <appContext helpID="auto_classification" path="glossary.html#auto_classification"/>
-   <appContext helpID="cartridges" path="glossary.html#cartridges"/>
-   <appContext helpID="connector_api_sdk" path="glossary.html#connector_api_sdk"/>
-   <appContext helpID="data_servers" path="glossary.html#data_servers"/>
-   <appContext helpID="dataserver_classic" path="glossary.html#dataserver_classic"/>
-   <appContext helpID="dataserver_distributed"
-               path="glossary.html#dataserver_distributed"/>
-   <appContext helpID="elasticsearch_cluster"
-               path="glossary.html#elasticsearch_cluster"/>
-   <appContext helpID="gateway" path="glossary.html#gateway"/>
-   <appContext helpID="ibm_storediq_insights"
-               path="glossary.html#ibm_storediq_insights"/>
+   <appContext helpID="glossary" path="glossary.html"/>
 </map>

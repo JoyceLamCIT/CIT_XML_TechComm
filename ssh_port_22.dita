@@ -4,33 +4,18 @@
     <title>SSH port 22</title>
     <shortdesc>By default, port 22 is open on all IBM StoredIQ hosts. The port is used for Secure
         Shell (SSH) communication and allows remote administration access to the VM. In general,
-        traffic is encrypted using password authentication.</shortdesc>
-    <prolog>
-        <copyright>
-            <copyryear year="2019"/>
-            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
-        </copyright>
-        <critdates>
-            <created date="2019"/>
-        </critdates>
-        <metadata>
-            <audience type="administrator" experiencelevel="general" job="installing"/>
-            <prodinfo platform="windows">
-                <prodname>IBM StoredIQ</prodname>
-                <brand>IBM</brand>
-                <featnum>5724M86</featnum>
-            </prodinfo>
-        </metadata>
-    </prolog>
-    <refbody>
-        <section id="section_bgj_241_1kb">
-            <title>Additional information</title>
-            <p>To add a layer of security, you can establish key-based authentication for
-                passwordless SSH logins to any of the IBM StoredIQ nodes in your environment as
-                described in <xref format="pdf"
-                    href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf"
-                    scope="external">Configuring SSH key-based authentication</xref>.</p>
-        </section>
-    </refbody>
+        traffic is encrypted using password authentication.
+        <!--check publishing of  hyperlink--></shortdesc>
+    <related-links>
+        <linklist>
+            <link format="pdf"
+                href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf"
+                scope="external">
+                <desc>To add a layer of security, you can establish key-based authentication for
+                    passwordless SSH logins to any of the IBM StoredIQ nodes in your environment as
+                    described in “Configuring SSH key-based authentication” on page 45.</desc>
+            </link>
+        </linklist>
+    </related-links>
     
 </reference>

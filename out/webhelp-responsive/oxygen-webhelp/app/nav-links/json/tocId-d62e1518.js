@@ -1,1 +1,0 @@
-define({"topics" : [{"title":"Gateway","href":"glossary_9.html#gateway","attributes": {"data-id":"gateway",},"menu": {"hasChildren":false,},"tocID":"gateway-d62e1519","topics":[]}]});

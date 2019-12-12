@@ -5,23 +5,6 @@
     <shortdesc>As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data
         server, and application stack can be installed on Microsoft Hyper-V. This option is not
         supported for the Elasticsearch virtual appliance.</shortdesc>
-    <prolog>
-        <copyright>
-            <copyryear year="2019"/>
-            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
-        </copyright>
-        <critdates>
-            <created date="2019"/>
-        </critdates>
-        <metadata>
-            <audience type="administrator" experiencelevel="general" job="installing"/>
-            <prodinfo platform="windows">
-                <prodname>IBM StoredIQ</prodname>
-                <brand>IBM</brand>
-                <featnum>5724M86</featnum>
-            </prodinfo>
-        </metadata>
-    </prolog>
     <taskbody>
         <prereq id="prereq_c3b_bm3_zjb">Installing IBM StoredIQ on Microsoft Hyper-V requires the
             use of third-party software.  Microsoft Hyper-V does not support OVAs and OVFs. The
@@ -62,7 +45,7 @@
             </step>
             <step>
                 <cmd>Convert the VMWare .vmdk file to a Microsoft Hyper-V .vhdx file. </cmd>
-                <info>For instructions about converting .vmdk files to .vhdx files, see the
+                <info>For instructions about converting .vmdk files to .vhdx filesQ see the
                     following links:<ul id="ul_eq5_f43_zjb">
                         <li><xref format="html"
                                 href="https://technet.microsoft.com/en-us/library/dn874008%28v=ws.11%29.aspx"
@@ -159,8 +142,8 @@
             </step>
         </steps>
         <postreq> Repeat this procedure for all additional disks. Complete the installation process
-            by following the instructions in <xref format="pdf"
+            by following the instructions in “C<xref format="pdf"
                 href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf"
-                scope="external">Configuring IBM StoredIQ</xref>. </postreq>
+                scope="external">onfiguring IBM StoredIQ” on page 22</xref>. </postreq>
     </taskbody>
 </task>

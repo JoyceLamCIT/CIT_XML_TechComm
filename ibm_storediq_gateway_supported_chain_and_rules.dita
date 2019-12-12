@@ -2,32 +2,14 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="ibm_storediq_gateway_supported_chain_and_rules">
     <title>IBM StoredIQ gateway supported chain and rules</title>
-    <shortdesc>Firewall and chain rules defined in iptables.</shortdesc>
-    <prolog>
-        <copyright>
-            <copyryear year="2019"/>
-            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
-        </copyright>
-        <critdates>
-            <created date="2019"/>
-        </critdates>
-        <metadata>
-            <audience type="administrator" experiencelevel="general" job="installing"/>
-            <prodinfo platform="windows">
-                <prodname>IBM StoredIQ</prodname>
-                <brand>IBM</brand>
-                <featnum>5724M86</featnum>
-            </prodinfo>
-        </metadata>
-    </prolog>
+    <shortdesc/>
     <conbody>
-        <p>
-            <codeblock>'PROD-transport':['5434','8765','7766','11102','11103','11104'],
+        <p>In iptables, the following firewall and chain rules are
+            defined:<codeblock>'PROD-transport':['5434','8765','7766','11102','11103','11104'],
  'PROD-https':['443'],
  'PROD-ssh':['22'],
  'PROD-web':['80'],
- 'PROD-postgres':[’5432’]</codeblock>
-            <codeblock>'desktop' service:
+ 'PROD-postgres':[’5432’]</codeblock><codeblock>'desktop' service:
  'PROD-broker':['21000'],
  'PROD-collectionsvc':['21300:21399'],
  'PROD-desktopupgrade':['21004'],
@@ -35,7 +17,6 @@
  'PROD-objlistsvc':['21200:21299'],
  'PROD-registration':['21001'],
  'PROD-session':['21002'],
- 'PROD-task':['21003'],</codeblock>
-        </p>
+ 'PROD-task':['21003'],</codeblock></p>
     </conbody>
 </concept>

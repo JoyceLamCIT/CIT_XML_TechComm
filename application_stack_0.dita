@@ -2,23 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="application_stack_0">
     <title>Application stack specifications</title>
-    <prolog>
-        <copyright>
-            <copyryear year="2019"/>
-            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
-        </copyright>
-        <critdates>
-            <created date="2019"/>
-        </critdates>
-        <metadata>
-            <audience type="administrator" experiencelevel="general" job="installing"/>
-            <prodinfo platform="windows">
-                <prodname>IBM StoredIQ</prodname>
-                <brand>IBM</brand>
-                <featnum>5724M86</featnum>
-            </prodinfo>
-        </metadata>
-    </prolog>
+    <shortdesc></shortdesc>
     <refbody>
         <table colsep="1" frame="all" id="table_q1n_kjt_xjb" rowsep="1">
             <title>Technical specifications</title>
@@ -47,6 +31,6 @@
         </table>
     </refbody>
     <related-links>
-        <link href="glossary.dita#application_stack"/>
+        <link href="application_stack_0.dita"/>
     </related-links>
 </reference>

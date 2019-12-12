@@ -1,178 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="reference_tlw_swr_xjb">
-    <title>Cover Page</title>
-    <shortdesc> This is the cover page with general information about the elements and how I've used
-        them in this project.</shortdesc>
-    <prolog>
-        <copyright>
-            <copyryear year="2019"/>
-            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
-        </copyright>
-        <critdates>
-            <created date="2019"/>
-        </critdates>
-        <metadata>
-            <audience type="administrator" experiencelevel="general" job="installing"/>
-            <prodinfo platform="windows">
-                <prodname>IBM StoredIQ</prodname>
-                <brand>IBM</brand>
-                <featnum>5724M86</featnum>
-            </prodinfo>
-        </metadata>
-    </prolog>
+    <title>IBM Deployment and Configuration Guide </title>
+    <shortdesc> This edition applies to Version 7.6.0.19 of product number 5724M86 and to all
+        subsequent releases and modifications until otherwise indicated in new editions. © Copyright
+        International Business Machines Corporation 2001, 2019. US Government Users Restricted
+        Rights – Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM
+        Corp.</shortdesc>
     <refbody>
-        <section>
-            <title>indexterm</title>
-            <p>Used a combination of indexterm, index-see, and index-see-also to create an index
-                    of<ul id="ul_k5l_hgh_1kb">
-                    <li>8 regular entries</li>
-                    <li>20 nested entries</li>
-                    <li>7 synonymous entries</li>
-                </ul></p>
-        </section>
-        <section id="section_wn3_m3h_1kb">
-            <title>Conditional processing and flagging schemes</title>
-            <p>Created .ditaval file to filter for general and expert user and exclude novice users.
-                For platforms, it includes Windows, excludes Mac, and flags Linux with absurd
-                colors.</p>
-        </section>
-        <section id="section_scb_nq1_1kb">
-            <title>Chunking</title>
-            <p>Walls of text or unmanageable lists were broken down into sections, tables, or topics
-                according to concept, reference, or task information types.</p>
-        </section>
-        <section id="section_lxz_qh1_1kb">
-            <title>href</title>
-            <p>If the source material linked to other URLs outside the document, they were included
-                in the DITA as href.</p>
-            <p>If the source material linked to another spot in the document that was not
-                transformed for Project 2, these also became href linking back to the source
-                PDF.</p>
-        </section>
-        <section id="section_x1n_5h1_1kb">
-            <title>xref</title>
-            <p>If the source material linked to another spot in the document that was transformed,
-                xref was used in the DITA. This included linking to other topics, sections, and
-                individual steps.</p>
-            <p>If the source material linked to another spot in the document that was not
-                transformed for Project 2, these became href linking back to the source PDF.</p>
-        </section>
-        <section id="section_jxm_vh1_1kb">
-            <title>conkeyref</title>
-            <p>Used for inserting image content.</p>
-        </section>
-        <section id="section_hxx_vh1_1kb">
-            <title>reltable</title>
-            <p>Linked topics of relevance together.</p>
-        </section>
-        <section id="section_m5f_wh1_1kb">
-            <title>related-links</title>
-            <p>I used related links to both topics as well as elements within topics. In container
-                topics, I used related-links and linklist to create a mini TOC.</p>
-        </section>
-        <section id="section_yxd_yh1_1kb">
-            <title>audience</title>
-            <p>I believe the audience to be a general administrator tasked with installing the IBM
-                StoredIQ. This information is in the metadata.</p>
-        </section>
-        <section id="section_q1n_yh1_1kb">
-            <title>platform</title>
-            <p>I made the assumption that the platform was on Windows, and inserted this into the
-                metadata.</p>
-        </section>
-        <section id="section_ybw_yh1_1kb">
-            <title>product</title>
-            <p>The product is the IBM StoredIQ, and it was inserted into the metadata.</p>
-        </section>
-        <section id="section_nbj_zh1_1kb">
-            <title>note</title>
-            <p>Notes had type and importance attributes set according to their gravity and purpose
-                identified in the source content.</p>
-        </section>
-        <section id="section_adc_1j1_1kb">
-            <title>examples</title>
-            <p>I used this element to wrap around examples in the source content.</p>
-        </section>
-        <section id="section_ed5_131_1kb">
-            <title>prolog</title>
-            <p>I included copyright information, other product information, and created dates for
-                versioning purposes. I assume for later iterations, the "modified" attribute will be
-                added to the dates.</p>
-        </section>
-        <section id="section_dwy_b31_1kb">
-            <title>cmdname</title>
-            <p>Used to tag command names in the software.</p>
-        </section>
-        <section id="section_fcq_hxf_1kb">
-            <title>substep</title>
-            <p>Used to break down steps into series of actions.</p>
-        </section>
-        <section id="section_gs2_c31_1kb">
-            <title>stepresult</title>
-            <p>Used to provide the outcome of a step so the user understands what is to be
-                expected.</p>
-        </section>
-        <section id="section_wxv_c31_1kb">
-            <title>info</title>
-            <p>Used inside steps to provide additional information.</p>
-        </section>
-        <section id="section_wj2_d31_1kb">
-            <title>postreq</title>
-            <p>Ysed to describe the steps or tasks that the user should do after the successful
-                completion of the current task.</p>
-        </section>
-        <section id="section_mzl_d31_1kb">
-            <title>prereq</title>
-            <p>Used to inform the user about the the things the user needs to know or do before
-                starting the current task.</p>
-        </section>
-        <section id="section_c1s_d31_1kb">
-            <title>userinput</title>
-            <p>Used for anything I interpretted as elements the user can change or input, such as
-                usernames, passwords, and text values.</p>
-        </section>
-        <section id="section_pwj_231_1kb">
-            <title>uicontrol</title>
-            <p>Used for anything I interpretted as interactive elements within the user
-                interface.</p>
-        </section>
-        <section id="section_bwz_231_1kb">
-            <title>menucascade</title>
-            <p>Used for multiple uicontrol elements in sequential order.</p>
-        </section>
-        <section id="section_qcj_g31_1kb">
-            <title>codeph</title>
-            <p>Used to wrap snippets of program code inline with the content.</p>
-        </section>
-        <section id="section_f1p_g31_1kb">
-            <title>codeblock</title>
-            <p>Used to wrap blocks of program code.</p>
-        </section>
-        <section id="section_k42_h31_1kb">
-            <title>glossgroup</title>
-            <p>I created a glossgroup to demonstrate that I understand how to group multiple
-                glossentry elements into one topic.</p>
-        </section>
-        <section id="section_fwn_h31_1kb">
-            <title>glossentry</title>
-            <p>I created glossentry topics and mapped them into the project map to show I understand
-                they can be mapped as well. I understand they can be mapped into a glossary.ditamap,
-                but I did not want to have 2 glossaries since I also created a glossgroup.</p>
-        </section>
-        <section id="section_ly5_l5f_1kb">
-            <title>topichead</title>
-            <p>Used to create letter sections for the glossary.</p>
-        </section>
-        <section id="section_o31_xl1_1kb">
-            <title>abbreviated-form</title>
-            <p>Used to call out instances of glossary terms.</p>
-        </section>
-        <section id="section_rw2_m41_1kb">
-            <title>parml</title>
-            <p>Used parml, plentry, pt, and pd to list terms and definitions described as
-                parameters.</p>
-        </section>
-   
+        <table colsep="1" frame="all" id="table_gty_bcl_zjb" rowsep="1">
+            <title>Linking</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                
+                <tbody>
+                    <row>
+                        <entry>href</entry>
+                        <entry>If the source material linked to other URLs, they were included in
+                            the DITA. If the source material linked to another spot in the document
+                            that was not transformed for Project 2, these also became href linking
+                            back to the source content.</entry>
+                    </row>
+                    <row>
+                        <entry>xref</entry>
+                        <entry>If the source material linked to another spot in the document that
+                            was transformed, xref was used in the DITA. If the source material
+                            linked to another spot in the document that was not transformed for
+                            Project 2, these also became href linking back to the source
+                            content.</entry>
+                    </row>
+                    <row>
+                        <entry>conref</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>conkeyref</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>reltable</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>related links</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>DITA range</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>non-DITA range</entry>
+                        <entry/>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        
+        
+        <table colsep="1" frame="all" id="table_hrg_dcl_zjb" rowsep="1">
+            <title>Conditional processing</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                
+                <tbody>
+                    <row>
+                        <entry>audience</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>platform</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>product</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>note types [look up actual attribute id]</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
     </refbody>
 </reference>

@@ -6,24 +6,7 @@
         It allows administrators to view the dashboard and see the status of the jobs and system
         details. Administrators can manage information about servers and conduct various
         confirguations on the system and application settings.</shortdesc>
-    <prolog>
-        <copyright>
-            <copyryear year="2019"/>
-            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
-        </copyright>
-        <critdates>
-            <created date="2019"/>
-        </critdates>
-        <metadata>
-            <audience type="administrator" experiencelevel="general" job="installing"/>
-            <prodinfo platform="windows">
-                <prodname>IBM StoredIQ</prodname>
-                <brand>IBM</brand>
-                <featnum>5724M86</featnum>
-            </prodinfo>
-        </metadata>
-    </prolog>
     <conbody>
-        <p><image conkeyref="images/IBM_StoredIQ_Data_Server" id="image_bkr_qpf_1kb"/></p>
+        <p><!--insert img IBM_StoredIQ_Data_Server--></p>
     </conbody>
 </concept>

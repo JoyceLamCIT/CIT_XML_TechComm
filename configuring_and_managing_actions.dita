@@ -4,29 +4,11 @@
     <title>Configuring and managing actions</title>
     <shortdesc>An action is any process that is taken upon the data that is represented by the
         indexes.</shortdesc>
-    <prolog>
-        <copyright>
-            <copyryear year="2019"/>
-            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
-        </copyright>
-        <critdates>
-            <created date="2019"/>
-        </critdates>
-        <metadata>
-            <audience type="administrator" experiencelevel="general" job="installing"/>
-            <prodinfo platform="windows">
-                <prodname>IBM StoredIQ</prodname>
-                <brand>IBM</brand>
-                <featnum>5724M86</featnum>
-            </prodinfo>
-        </metadata>
-    </prolog>
     <conbody>
-        <p>Actions are run by data servers on indexed data objects. Any errors or warnings that are
-            generated as a result of an action are recorded as exceptions in <xref
-                href="ibm_storediq_data_workbench.dita">IBM StoredIQ Data
-                Workbench</xref>.<note>Actions can be created within IBM StoredIQ Administrator and
-                then made available to other IBM StoredIQ applications such as IBM StoredIQ Data
+        <p> Actions are run by data servers on indexed data objects. Any errors or warnings that are
+            generated as a result of an action are recorded as exceptions in IBM StoredIQ Data
+                Workbench.<note>Actions can be created within IBM StoredIQ Administrator and then
+                made available to other IBM StoredIQ applications such as IBM StoredIQ Data
                 Workbench.</note></p>
     </conbody>
 </concept>

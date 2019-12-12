@@ -4,27 +4,9 @@
     <title>IBM StoredIQ Policy Manager</title>
     <shortdesc>IBM StoredIQ Policy Manager allows users to run mature policies and processes at
         scale across a wider range of data. </shortdesc>
-    <prolog>
-        <copyright>
-            <copyryear year="2019"/>
-            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
-        </copyright>
-        <critdates>
-            <created date="2019"/>
-        </critdates>
-        <metadata>
-            <audience type="administrator" experiencelevel="general" job="installing"/>
-            <prodinfo platform="windows">
-                <prodname>IBM StoredIQ</prodname>
-                <brand>IBM</brand>
-                <featnum>5724M86</featnum>
-            </prodinfo>
-        </metadata>
-    </prolog>
     <conbody>
-        
-        <p><image conkeyref="images/IBM_StoredIQ_Policy_Manager" id="image_wm3_wpf_1kb"/></p>
-        <p>The users can define and run system-wide policies, focusing on the execution of the
+        <!-- insert img IBM_StoredIQ_Policy_Manager -->
+        <p> The users can define and run systemwide policies, focusing on the execution of the
             process rather than understanding or reviewing affected data objects. Additionally, with
             reports of IBM StoredIQ Policy Manager, you can record what actions were conducted, when
             they were conducted, and what data was affected by the policy's execution. </p>

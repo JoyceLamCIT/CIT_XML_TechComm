@@ -6,23 +6,6 @@
         better performance, consider increasing the memory. The total memory available to the node
         must be distributed between the host operating system, the Elasticsearch java heap space,
         and the kernel file system caches.</shortdesc>
-    <prolog>
-        <copyright>
-            <copyryear year="2019"/>
-            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
-        </copyright>
-        <critdates>
-            <created date="2019"/>
-        </critdates>
-        <metadata>
-            <audience type="administrator" experiencelevel="general" job="installing"/>
-            <prodinfo platform="windows">
-                <prodname>IBM StoredIQ</prodname>
-                <brand>IBM</brand>
-                <featnum>5724M86</featnum>
-            </prodinfo>
-        </metadata>
-    </prolog>
     <refbody>
         <example>
             <p>For example, if the system has 32 GB memory, 2 GB must be allocated for the host

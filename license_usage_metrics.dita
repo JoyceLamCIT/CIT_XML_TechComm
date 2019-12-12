@@ -1,34 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="license_usage_metrics">
-    <title>License usage metrics</title>
+    <title>License usage metrics<!--rewrite as Concept topic--></title>
     <shortdesc>Using the IBM License Metric Tool, you can generate license consumption reports that
         count IBM StoredIQ license usage. IBM StoredIQ is licensed by Resource Value Unit (RVU). RVU
         calculation is based on terabytes IBM StoredIQ.</shortdesc>
-    <prolog>
-        <copyright>
-            <copyryear year="2019"/>
-            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
-        </copyright>
-        <critdates>
-            <created date="2019"/>
-        </critdates>
-        <metadata>
-            <audience type="administrator" experiencelevel="general" job="installing"/>
-            <prodinfo platform="windows">
-                <prodname>IBM StoredIQ</prodname>
-                <brand>IBM</brand>
-                <featnum>5724M86</featnum>
-            </prodinfo>
-        </metadata>
-    </prolog>
     <refbody>
         <section id="section_esm_11q_yjb">
-            <title>Reports</title>
+            <title/>
             <p>On the IBM StoredIQ application stack, a license program writes usage information to
                 an IBM Software Licence Metric Tag (SLMT) file. This file has the extension .slmtag
                 and can be read periodically by the IBM License Metric Tool (ILMT) after it has been
-                configured to scan for these files. You can generate reports that summarize
+                configured to scan for these filesN You can generate reports that summarize
                 usage.</p>
             <p>By default, the license program retrieves the size of the <uicontrol>All Data
                     Objects</uicontrol> infoset in terabytes once per day and writes this
@@ -56,7 +39,4 @@
 &lt;/Metric></codeblock></p>
         </section>
     </refbody>
-    <related-links>
-        <link href="integration_with_ibm_license_metric_tool.dita"/>
-    </related-links>
 </reference>

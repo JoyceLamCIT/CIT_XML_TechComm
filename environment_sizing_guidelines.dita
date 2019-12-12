@@ -5,23 +5,6 @@
     <shortdesc>To size an environment precisely, you must understand the factors such as harvest
         frequency, complexity of the source, and use case scenarios that drive application use and
         action execution.</shortdesc>
-    <prolog>
-        <copyright>
-            <copyryear year="2019"/>
-            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
-        </copyright>
-        <critdates>
-            <created date="2019"/>
-        </critdates>
-        <metadata>
-            <audience type="administrator" experiencelevel="general" job="installing"/>
-            <prodinfo platform="windows">
-                <prodname>IBM StoredIQ</prodname>
-                <brand>IBM</brand>
-                <featnum>5724M86</featnum>
-            </prodinfo>
-        </metadata>
-    </prolog>
     <refbody>
         <section id="section_tq1_dwp_yjb">
             <title>General design guidelines for IBM StoredIQ</title>
@@ -30,37 +13,24 @@
                     <li> For data servers of the type DataServer - Classic: <ul id="ul_ixk_pwp_yjb">
                             <li>One data server for up to 30 TBs of data (which can vary based on
                                 the number of volumes, objects per volume, and object types).</li>
-                            <li>Up to 500 volumes per data server.<note type="attention">When you're
-                                    sizing an environment that includes Sharepoint data sources,
-                                    keep in mind that volumes must be defined at Sharepoint site
-                                    collection level, not the Sharepoint server level.</note></li>
+                            <li>Up to 500 volumes per data server.<note>When you're sizing an
+                                    environment that includes Sharepoint data sources, keep in mind
+                                    that volumes must be defined at Sharepoint site collection
+                                    level, not the Sharepoint server level.</note></li>
                             <li>Up to 150 million objects per data server.</li>
                         </ul></li>
                     <li>One gateway per 50 data servers.</li>
-                    <li>One application server.</li>
-                </ul>
-            </p>
-        </section>
-        <section id="section_qlh_dq1_1kb">
-            <title>Processing speed</title>
-            <p>
-                <ul>
+                    <li>One application
+                        server.<!--pretty sure everything after this point requires diff structuring into a concept topic and does not belong in this list--></li>
                     <li>NFS is slightly faster than CIFS for metadata only, but assume CIFS/NFS even
                         for this exercise.</li>
-                    <li>Full-content processing of file (for example, .ZIP, .RAR, .GZ) and email
+                    <li> Full-content processing of file (for example, .ZIP, .RAR, .GZ) and email
                         archive (.PST, .NSF, .EMX) processing are slower as items must be extracted
                         from the archives. If there is a significant number of these files in the
                         file system and they are not excluded from content processing, the
                         full-content processing rate can be too high. Until you have an initial
                         index of the file system, you do not know how to weigh full-content
                         processing of archives.</li>
-                </ul>
-            </p>
-        </section>
-        <section id="section_dhv_dq1_1kb">
-            <title>Metadata</title>
-            <p>
-                <ul>
                     <li>An object/time metric is appropriate for metadata only NOT computing a hash,
                         membership in the National Institute of Standards and Technology (NIST) or
                         enumerating objects that are contained in archives. Converting it to a
@@ -86,13 +56,6 @@
                         compute a hash or enumerate objects that are contained in archives. The
                         bytes/time rate translates into bytes served up by the NAS and network
                         traffic that must be considered.</li>
-                </ul>
-            </p>
-        </section>
-        <section id="section_ozg_jq1_1kb">
-            <title>Interrogator process count</title>
-            <p>
-                <ul>
                     <li>Full-content processing opens and reads the contents of each file to extract
                         all text. The content of all requested files traverses the network between
                         the NAS and data server. The processing time to enumerate archives, extract
@@ -107,13 +70,6 @@
                     <li>The interrogator count can be viewed as the number of client connections
                         that are made to a data source actively requesting data. It is important for
                         capacity planning for the data source.</li>
-                </ul>
-            </p>
-        </section>
-        <section id="section_vps_kq1_1kb">
-            <title>Data sources</title>
-            <p>
-                <ul>
                     <li>The data servers are assumed to be "network close" to the NAS data sources.
                         Network latency under 10 ms with at least 1000 Mbps bandwidth is assumed
                         (connected through local area network). The data servers need a low latency
@@ -122,21 +78,6 @@
                     <li>The gateway and application stack can be located remotely from the data
                         servers. Network connections with latency greater than 10 ms and bandwidth
                         of at least 2+ Mbps are acceptable. </li>
-                </ul>
-            </p>
-        </section>
-        <section id="section_h3z_fr1_1kb">
-            <title>VMware requirements</title>
-            <p>
-                <ul>
-                    <li>VMware vSphere v5.0 and fix packs or v6.0 and fix packs.</li>
-                    <li>VMware ESXi v5.0 and fix packs, v6.0 and fix packs, or v6.5 and fix
-                        packs.</li>
-                    <li>VMware virtual machine hardware version 8.0 or later. For more information,
-                        see the <xref format="html" href="https://www.vmware.com/support/pubs/"
-                            scope="external">VMware product documentation</xref>.</li>
-                    <li>The appropriate VMware license to enable the required processor cores and
-                        memory for the virtual machine.</li>
                 </ul>
             </p>
         </section>

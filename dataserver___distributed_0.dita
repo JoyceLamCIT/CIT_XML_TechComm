@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry id="dataserver___distributed_0">
+    <glossterm>DataServer - Distributed</glossterm>
+    <glossdef>The distributed data server uses an Elasticsearch cluster instead of an embedded
+        Postgres database. It increases the scalability and flexibility of the IBM StoredIQ
+        deployment in a way that it can manage much larger amounts of data. Without adding more data
+        servers, data that is managed by the IBM StoredIQ deployment can be increased by adding new
+        nodes to the Elasticsearch cluster. Search queries perform better on DataServer -
+        Distributed. </glossdef>
+    <related-links>
+        <link href="dataserver___distributed.dita"/>
+    </related-links>
+</glossentry>

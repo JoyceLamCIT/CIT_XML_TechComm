@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="planning_for_deployment">
+    <title>Planning for deployment</title>
+    <shortdesc>When you plan a deployment of IBM StoredIQ, evaluate several infrastructure
+        considerations. </shortdesc>
+    <taskbody>
+        <context>
+            <p>In addition to the information in this section, review the requirements detailed in
+                the IBM Software Product Compatibility Reports (SPCR) tool at: Software Product
+                Compatibility Reports: StoredIQ 7.6. <!-- insert link--></p>
+            <p>If you plan to use IBM StoredIQ for Legal )dentification and Collection to create and
+                manage data boxes and data requests that are to be fulfilled by IBM StoredIQ, also
+                check the system requirements for StoredIQ for Legal at: Software Product
+                Compatibility Reports: StoredIQ for Legal 2.0.3 <!--insert link--></p>
+        </context>
+        
+    </taskbody>
+</task>

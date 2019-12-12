@@ -4,23 +4,6 @@
     <title>Deploying the virtual appliances</title>
     <shortdesc> Use VMware vSphere Client to deploy the virtual appliances to an ESX
         server.</shortdesc>
-    <prolog>
-        <copyright>
-            <copyryear year="2019"/>
-            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
-        </copyright>
-        <critdates>
-            <created date="2019"/>
-        </critdates>
-        <metadata>
-            <audience type="administrator" experiencelevel="general" job="installing"/>
-            <prodinfo platform="windows">
-                <prodname>IBM StoredIQ</prodname>
-                <brand>IBM</brand>
-                <featnum>5724M86</featnum>
-            </prodinfo>
-        </metadata>
-    </prolog>
     <taskbody>
         <prereq> Ensure that all prerequisites for the deployment described in the planning section
             are met and that the required software packages are available on your local system
@@ -43,13 +26,13 @@
             <step>
                 <cmd>Open VMware vSphere Client.</cmd>
             </step>
-            <step id="step_3">
+            <step>
                 <cmd>Select <menucascade>
                         <uicontrol>File</uicontrol>
                         <uicontrol>Deploy OVF Template</uicontrol>
                     </menucascade>.</cmd>
             </step>
-            <step id="step_4">
+            <step>
                 <cmd>Within the <uicontrol>Deploy OVF Template</uicontrol> wizard, complete these
                     steps:</cmd>
                 <substeps id="substeps_otl_lj3_zjb">
@@ -98,7 +81,7 @@
                             Deploy OVF Template.</cmd>
                         <stepresult>At this point, you can select the <uicontrol>Power
                                 on</uicontrol> check box to turn on the VM after deployment is
-                                complete.<note importance="high" type="attention">
+                                complete.<note importance="high">
                                 <p>If your IBM StoredIQ environment includes an Elasticsearch
                                     cluster, do not select this option when you're deploying the
                                     data server OVA. The Elasticsearch cluster setup must be
@@ -108,17 +91,14 @@
                 </substeps>
             </step>
             <step>
-                <cmd>Repeat <xref format="dita" href="#deploying_the_virtual_appliances/step_3">step
-                        3</xref> and <xref format="dita"
-                        href="#deploying_the_virtual_appliances/step_4">step 4</xref> for each OVA.
-                </cmd>
+                <cmd>Repeat steps 3 and 4 for each OVA. </cmd>
             </step>
         </steps>
         <postreq id="postreq_e2s_5k3_zjb">Configure the components of your IBM StoredIQ environment
             in this order: <ol id="ol_b5m_vk3_zjb">
                 <li>Elasticsearch cluster (if applicable) </li>
                 <li>Gateway</li>
-                <li>One or more data servers</li>
+                <li> One or more data servers</li>
                 <li>Application stack</li>
             </ol></postreq>
     </taskbody>

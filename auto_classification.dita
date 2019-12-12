@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry id="auto_classification">
+    <glossterm>Auto-classification</glossterm>
+    <glossdef>Automated document categorization, what IBM StoredIQ refers to as utoI classification
+        models, integrates the IBM® Content Classification's classification model into the IBM
+        StoredIQ infoset-generation process. Data Experts can use IBM Content Classification to
+        train a classification model, which is then registered with IBM StoredIQ Administrator. The
+        registered classification model can be applied to an existing infoset in IBM StoredIQ Data
+        Workbench to generate new metadata for the objects in the infoset. Metadata can be used in
+        rule-based filters to create new infosets.</glossdef>
+</glossentry>

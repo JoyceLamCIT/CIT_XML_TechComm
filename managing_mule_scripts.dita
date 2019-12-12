@@ -3,23 +3,6 @@
 <concept id="managing_mule_scripts">
     <title>Managing Mule scripts</title>
     <shortdesc>Helps you to create Mule scripts and upload script packages. </shortdesc>
-    <prolog>
-        <copyright>
-            <copyryear year="2019"/>
-            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
-        </copyright>
-        <critdates>
-            <created date="2019"/>
-        </critdates>
-        <metadata>
-            <audience type="administrator" experiencelevel="general" job="installing"/>
-            <prodinfo platform="windows">
-                <prodname>IBM StoredIQ</prodname>
-                <brand>IBM</brand>
-                <featnum>5724M86</featnum>
-            </prodinfo>
-        </metadata>
-    </prolog>
     <conbody>
         <p>These Mule scripts are used by IBM StoredIQ Policy Manager to create policies using the
             automation workflow.</p>

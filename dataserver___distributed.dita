@@ -2,26 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="dataserver___distributed">
     <title>DataServer - Distributed</title>
-    <shortdesc>If you deploy this type of data server, you must also deploy an <abbreviated-form
-            keyref="elasticsearch_cluster"/> with at least one node. If you deploy a cluster with
-        more nodes, each of the Elasticsearch nodes must meet the listed requirements.</shortdesc>
-    <prolog>
-        <copyright>
-            <copyryear year="2019"/>
-            <copyrholder>International Business Machines Corporation 2001, 2019.</copyrholder>
-        </copyright>
-        <critdates>
-            <created date="2019"/>
-        </critdates>
-        <metadata>
-            <audience type="administrator" experiencelevel="general" job="installing"/>
-            <prodinfo platform="windows">
-                <prodname>IBM StoredIQ</prodname>
-                <brand>IBM</brand>
-                <featnum>5724M86</featnum>
-            </prodinfo>
-        </metadata>
-    </prolog>
+    <shortdesc>If you deploy this type of data server, you must also deploy an Elasticsearch cluster
+        with at least one node. If you deploy a cluster with more nodes, each of the Elasticsearch
+        nodes must meet the listed requirements.</shortdesc>
     <refbody><table colsep="1" frame="all" id="table_kzt_nnt_xjb" rowsep="1">
         <title>Technical specifications</title>
         <tgroup cols="2">
@@ -51,4 +34,7 @@
             </tbody>
         </tgroup>
     </table> </refbody>
+    <related-links>
+        <link href="dataserver___distributed_0.dita"/>
+    </related-links>
 </reference>
